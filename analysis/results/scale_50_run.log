@@ -1,0 +1,357 @@
+
+============================================================
+ReARTeR Scale Analysis — 50 Questions
+Dataset: synth_50  |  Corpus: synth
+Started: 2026-03-30 16:49:29.808720
+============================================================
+
+[1/3] Zero-Shot...
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+{'em': 0.38, 'f1': 0.5516655683497789, 'acc': 0.86, 'precision': 0.4950697613197613, 'recall': 0.8333333333333333}
+  EM=0.380  F1=0.552  time=10.25s
+
+[2/3] Naive RAG...
+Split strings:   0%|          | 0/50 [00:00<?, ?it/s]                                                     Stem Tokens:   0%|          | 0/50 [00:00<?, ?it/s]                                                   generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+{'em': 0.36, 'f1': 0.6039786923024901, 'acc': 0.98, 'precision': 0.5242063916475681, 'recall': 0.9733333333333334}
+  EM=0.360  F1=0.604  time=13.58s
+
+[3/3] ReARTeR Multi-Step Reasoning...
+  [1/50] What sport is played at Wimbledon?...
+generated!
+generated!
+generated!
+generated!
+  [2/50] What is the official language of the most populous country in Sou...
+generated!
+generated!
+generated!
+generated!
+  [3/50] What ocean borders the country that contains the Amazon River?...
+generated!
+generated!
+  [4/50] What country did Ludwig van Beethoven come from?...
+generated!
+generated!
+generated!
+generated!
+generated!
+Follow up: Who was Ludwig van Beethoven?
+Search: No.
+Intermediate answer: Ludwig van Beethoven was a German composer and pianist.Follow up:What is the significance of Beethoven's nationality in his career and legacy?
+Search: No.Follow up:Who were some of Beethoven's notable contemporaries or rivals?
+Search: No.Follow up:Intermediate answer: Ludwig van Beethoven was a German composer and pianist. His nationality influenced his work, as many of his compositions reflect the cultural context and political climate of Germany during that time.
+
+Question: What is the significance of Beethoven's nationality in his career and legacy?
+Search: No.
+Intermediate answer: The significance of Beethoven's nationality in his career and legacy lies in the way it shaped his music. As a German composer, he was deeply influenced by German cultural values and traditions, which are reflected in his works.
+
+Question: Who were some of Beethoven's notable contemporaries or rivals?
+Search: No.
+Retrieved documents:
+Intermediate answer:
+generated!
+generated!
+  [5/50] What country is home to the most volcanoes?...
+generated!
+generated!
+  [6/50] What country was the inventor of the telephone born in?...
+generated!
+generated!
+  [7/50] Who wrote Don Quixote?...
+generated!
+generated!
+  [8/50] What country invented the game of chess?...
+generated!
+generated!
+  [9/50] In what year was Facebook founded?...
+generated!
+generated!
+  [10/50] What is the speed of light in km/s (approximately)?...
+generated!
+generated!
+  [11/50] In what city was the United Nations founded?...
+generated!
+generated!
+  [12/50] What does the acronym HTML stand for?...
+generated!
+generated!
+generated!
+generated!
+generated!
+  [13/50] Who was the first President of the United States?...
+generated!
+generated!
+  [14/50] In what year did World War II end?...
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+  [15/50] What country has won the most Olympic gold medals overall?...
+generated!
+generated!
+  [16/50] Who painted the Sistine Chapel ceiling?...
+generated!
+generated!
+  [17/50] How many players are on a basketball team on the court at one tim...
+generated!
+generated!
+  [18/50] What country produces the most coffee in the world?...
+generated!
+generated!
+  [19/50] What novel features the character Atticus Finch?...
+generated!
+Split strings:   0%|          | 0/1 [00:00<?, ?it/s]                                                    Stem Tokens:   0%|          | 0/1 [00:00<?, ?it/s]                                                  generated!
+generated!
+  [20/50] What artist cut off his own ear?...
+generated!
+generated!
+generated!
+  [21/50] Who wrote the novel 1984?...
+generated!
+generated!
+generated!
+generated!
+generated!
+  [22/50] Who painted the Mona Lisa?...
+generated!
+generated!
+generated!
+Follow up: Can you provide more details about the artist who painted the Mona Lisa?
+Search: No.
+Intermediate answer: The Mona Lisa was painted by Leonardo da Vinci.Follow up:What year did Leonardo da Vinci start working on the Mona Lisa?
+Search: No.
+Retrieved documents:
+Intermediate answer:
+generated!
+generated!
+  [23/50] What type of pasta is shaped like small rice grains?...
+generated!
+generated!
+generated!
+Follow up: Can you name any specific types of pasta that are shaped like small rice grains?
+Search: No.
+Intermediate answer: Penne is a type of pasta commonly known for being shaped like small rice grains.Follow up:Can you provide more specific examples of pasta shaped like small rice grains besides penne?
+
+Search: No.
+Retrieved documents:
+Intermediate answer:
+generated!
+generated!
+  [24/50] What country does sushi originate from?...
+generated!
+generated!
+  [25/50] What company makes the PlayStation gaming console?...
+generated!
+generated!
+  [26/50] What country is known as the birthplace of pizza?...
+generated!
+generated!
+  [27/50] What company did Steve Jobs co-found?...
+generated!
+generated!
+generated!
+generated!
+  [28/50] What river forms part of the border between the USA and Mexico?...
+generated!
+generated!
+  [29/50] Who invented the World Wide Web?...
+generated!
+generated!
+  [30/50] What was the name of the ship that sank after hitting an iceberg ...
+generated!
+generated!
+  [31/50] Which tennis player has won the most Grand Slam titles (male)?...
+generated!
+Split strings:   0%|          | 0/1 [00:00<?, ?it/s]                                                    Stem Tokens:   0%|          | 0/1 [00:00<?, ?it/s]                                                  generated!
+generated!
+  [32/50] What empire built the Colosseum?...
+generated!
+generated!
+  [33/50] In what country is the ancient city of Machu Picchu located?...
+generated!
+generated!
+  [34/50] What is the maximum score in a single game of ten-pin bowling?...
+generated!
+generated!
+generated!
+Split strings:   0%|          | 0/1 [00:00<?, ?it/s]                                                    Stem Tokens:   0%|          | 0/1 [00:00<?, ?it/s]                                                  generated!
+generated!
+  [35/50] What does AI stand for?...
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+  [36/50] What country has the most natural lakes?...
+generated!
+generated!
+  [37/50] What does CPU stand for?...
+generated!
+generated!
+  [38/50] What country is Mount Kilimanjaro located in?...
+generated!
+generated!
+  [39/50] Who was the leader of Nazi Germany during World War II?...
+generated!
+generated!
+  [40/50] What desert is the largest hot desert?...
+generated!
+generated!
+generated!
+generated!
+generated!
+  [41/50] What country won the 2018 FIFA World Cup?...
+generated!
+generated!
+  [42/50] What is the highest waterfall in the world?...
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+generated!
+  [43/50] What revolution began in France in 1789?...
+generated!
+generated!
+  [44/50] What is the name of the fictional detective created by Arthur Con...
+generated!
+generated!
+  [45/50] Who was the president of the USA when the first iPhone was releas...
+generated!
+Split strings:   0%|          | 0/1 [00:00<?, ?it/s]                                                    Stem Tokens:   0%|          | 0/1 [00:00<?, ?it/s]                                                  generated!
+generated!
+  [46/50] What is the national animal of Australia?...
+generated!
+generated!
+  [47/50] In what city were the first modern Olympic Games held?...
+generated!
+generated!
+  [48/50] In what year did the Soviet Union dissolve?...
+generated!
+generated!
+generated!
+  [49/50] In what year was the first iPhone released?...
+generated!
+generated!
+  [50/50] What ancient wonder was located in Alexandria, Egypt?...
+generated!
+generated!
+  EM=0.040  F1=0.279  time=94.78s
+Saved: /home/rtx3060/ReARTeR/analysis/results/scale_50_20260330_165129.json
+README updated with 50Q results
+
+============================================================
+SCALE 50Q DONE — 2026-03-30 16:51:29.031064
+============================================================
+Method                         EM      F1     Acc     Time
+------------------------------------------------------------
+zero_shot                   0.380   0.552   0.860    10.2s
+naive_rag                   0.360   0.604   0.980    13.6s
+rearter                     0.040   0.279   0.900    94.8s

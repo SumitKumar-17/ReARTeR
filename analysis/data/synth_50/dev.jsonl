@@ -1,0 +1,50 @@
+{"id": "synth_0000", "question": "What sport is played at Wimbledon?", "golden_answers": ["Tennis"]}
+{"id": "synth_0001", "question": "What is the official language of the most populous country in South America?", "golden_answers": ["Portuguese"]}
+{"id": "synth_0002", "question": "What ocean borders the country that contains the Amazon River?", "golden_answers": ["Atlantic Ocean", "Atlantic"]}
+{"id": "synth_0003", "question": "What country did Ludwig van Beethoven come from?", "golden_answers": ["Germany"]}
+{"id": "synth_0004", "question": "What country is home to the most volcanoes?", "golden_answers": ["Indonesia"]}
+{"id": "synth_0005", "question": "What country was the inventor of the telephone born in?", "golden_answers": ["Scotland"]}
+{"id": "synth_0006", "question": "Who wrote Don Quixote?", "golden_answers": ["Miguel de Cervantes", "Cervantes"]}
+{"id": "synth_0007", "question": "What country invented the game of chess?", "golden_answers": ["India"]}
+{"id": "synth_0008", "question": "In what year was Facebook founded?", "golden_answers": ["2004"]}
+{"id": "synth_0009", "question": "What is the speed of light in km/s (approximately)?", "golden_answers": ["300000", "299792"]}
+{"id": "synth_0010", "question": "In what city was the United Nations founded?", "golden_answers": ["San Francisco"]}
+{"id": "synth_0011", "question": "What does the acronym HTML stand for?", "golden_answers": ["HyperText Markup Language"]}
+{"id": "synth_0012", "question": "Who was the first President of the United States?", "golden_answers": ["George Washington"]}
+{"id": "synth_0013", "question": "In what year did World War II end?", "golden_answers": ["1945"]}
+{"id": "synth_0014", "question": "What country has won the most Olympic gold medals overall?", "golden_answers": ["United States", "USA"]}
+{"id": "synth_0015", "question": "Who painted the Sistine Chapel ceiling?", "golden_answers": ["Michelangelo"]}
+{"id": "synth_0016", "question": "How many players are on a basketball team on the court at one time?", "golden_answers": ["5", "five"]}
+{"id": "synth_0017", "question": "What country produces the most coffee in the world?", "golden_answers": ["Brazil"]}
+{"id": "synth_0018", "question": "What novel features the character Atticus Finch?", "golden_answers": ["To Kill a Mockingbird"]}
+{"id": "synth_0019", "question": "What artist cut off his own ear?", "golden_answers": ["Vincent van Gogh", "Van Gogh"]}
+{"id": "synth_0020", "question": "Who wrote the novel 1984?", "golden_answers": ["George Orwell", "Orwell"]}
+{"id": "synth_0021", "question": "Who painted the Mona Lisa?", "golden_answers": ["Leonardo da Vinci", "Leonardo"]}
+{"id": "synth_0022", "question": "What type of pasta is shaped like small rice grains?", "golden_answers": ["Orzo", "Risoni"]}
+{"id": "synth_0023", "question": "What country does sushi originate from?", "golden_answers": ["Japan"]}
+{"id": "synth_0024", "question": "What company makes the PlayStation gaming console?", "golden_answers": ["Sony"]}
+{"id": "synth_0025", "question": "What country is known as the birthplace of pizza?", "golden_answers": ["Italy"]}
+{"id": "synth_0026", "question": "What company did Steve Jobs co-found?", "golden_answers": ["Apple", "Apple Inc."]}
+{"id": "synth_0027", "question": "What river forms part of the border between the USA and Mexico?", "golden_answers": ["Rio Grande", "Rio Bravo"]}
+{"id": "synth_0028", "question": "Who invented the World Wide Web?", "golden_answers": ["Tim Berners-Lee", "Timothy Berners-Lee"]}
+{"id": "synth_0029", "question": "What was the name of the ship that sank after hitting an iceberg in 1912?", "golden_answers": ["Titanic", "RMS Titanic"]}
+{"id": "synth_0030", "question": "Which tennis player has won the most Grand Slam titles (male)?", "golden_answers": ["Novak Djokovic", "Djokovic"]}
+{"id": "synth_0031", "question": "What empire built the Colosseum?", "golden_answers": ["Roman Empire", "Rome"]}
+{"id": "synth_0032", "question": "In what country is the ancient city of Machu Picchu located?", "golden_answers": ["Peru"]}
+{"id": "synth_0033", "question": "What is the maximum score in a single game of ten-pin bowling?", "golden_answers": ["300"]}
+{"id": "synth_0034", "question": "What does AI stand for?", "golden_answers": ["Artificial Intelligence"]}
+{"id": "synth_0035", "question": "What country has the most natural lakes?", "golden_answers": ["Canada"]}
+{"id": "synth_0036", "question": "What does CPU stand for?", "golden_answers": ["Central Processing Unit"]}
+{"id": "synth_0037", "question": "What country is Mount Kilimanjaro located in?", "golden_answers": ["Tanzania"]}
+{"id": "synth_0038", "question": "Who was the leader of Nazi Germany during World War II?", "golden_answers": ["Adolf Hitler", "Hitler"]}
+{"id": "synth_0039", "question": "What desert is the largest hot desert?", "golden_answers": ["Sahara", "Sahara Desert"]}
+{"id": "synth_0040", "question": "What country won the 2018 FIFA World Cup?", "golden_answers": ["France"]}
+{"id": "synth_0041", "question": "What is the highest waterfall in the world?", "golden_answers": ["Angel Falls"]}
+{"id": "synth_0042", "question": "What revolution began in France in 1789?", "golden_answers": ["French Revolution"]}
+{"id": "synth_0043", "question": "What is the name of the fictional detective created by Arthur Conan Doyle?", "golden_answers": ["Sherlock Holmes", "Holmes"]}
+{"id": "synth_0044", "question": "Who was the president of the USA when the first iPhone was released?", "golden_answers": ["George W. Bush", "Bush"]}
+{"id": "synth_0045", "question": "What is the national animal of Australia?", "golden_answers": ["Red Kangaroo", "Kangaroo"]}
+{"id": "synth_0046", "question": "In what city were the first modern Olympic Games held?", "golden_answers": ["Athens"]}
+{"id": "synth_0047", "question": "In what year did the Soviet Union dissolve?", "golden_answers": ["1991"]}
+{"id": "synth_0048", "question": "In what year was the first iPhone released?", "golden_answers": ["2007"]}
+{"id": "synth_0049", "question": "What ancient wonder was located in Alexandria, Egypt?", "golden_answers": ["Library of Alexandria", "Lighthouse of Alexandria", "Great Library"]}

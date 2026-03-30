@@ -1,0 +1,1752 @@
+[
+    {
+        "id": "synth_0000",
+        "question": "What sport is played at Wimbledon?",
+        "golden_answers": [
+            "Tennis"
+        ],
+        "output": {
+            "pred": "Tennis",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0001",
+        "question": "What is the official language of the most populous country in South America?",
+        "golden_answers": [
+            "Portuguese"
+        ],
+        "output": {
+            "pred": "The official language of Brazil, the most populous country in South America, is Portuguese.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.15384615384615385,
+                "acc": 1.0,
+                "precision": 0.08333333333333333,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0002",
+        "question": "What ocean borders the country that contains the Amazon River?",
+        "golden_answers": [
+            "Atlantic Ocean",
+            "Atlantic"
+        ],
+        "output": {
+            "pred": "The Atlantic Ocean borders the country that contains the Amazon River.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.4,
+                "acc": 1.0,
+                "precision": 0.25,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0003",
+        "question": "What country did Ludwig van Beethoven come from?",
+        "golden_answers": [
+            "Germany"
+        ],
+        "output": {
+            "pred": "Ludwig van Beethoven was a German composer who made significant contributions to both Classical and Romantic periods in music. His work, including his nine symphonies, five piano concertos, and one violin concerto, continued even after he became deaf. His musical innovations influenced generations of composers and continue to be studied and performed today.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0004",
+        "question": "What country is home to the most volcanoes?",
+        "golden_answers": [
+            "Indonesia"
+        ],
+        "output": {
+            "pred": "The country known for having the most volcanoes is Indonesia, which has over 130 active volcanoes.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.13333333333333333,
+                "acc": 1.0,
+                "precision": 0.07142857142857142,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0005",
+        "question": "What country was the inventor of the telephone born in?",
+        "golden_answers": [
+            "Scotland"
+        ],
+        "output": {
+            "pred": "Alexander Graham Bell was born in Scotland. However, it's important to note that this information might vary depending on different sources, and some accounts suggest he was actually born in Edinburgh, which is part of Scotland. Nevertheless, based on common knowledge, the birthplace mentioned is Scotland.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.04347826086956522,
+                "acc": 1.0,
+                "precision": 0.022222222222222223,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0006",
+        "question": "Who wrote Don Quixote?",
+        "golden_answers": [
+            "Miguel de Cervantes",
+            "Cervantes"
+        ],
+        "output": {
+            "pred": "Miguel de Cervantes wrote \"Don Quixote,\" and it was first published in 1605.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.375,
+                "acc": 1.0,
+                "precision": 0.23076923076923078,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0007",
+        "question": "What country invented the game of chess?",
+        "golden_answers": [
+            "India"
+        ],
+        "output": {
+            "pred": "The invention of the game of chess is often credited to India, though the exact date and circumstances are subjects of debate among historians. While it's commonly believed that chess originated there, definitive proof dates back only as far as the 6th century CE. Therefore, a precise answer based on historical evidence would be challenging due to uncertainty in the exact origins. Nonetheless, India is widely recognized for inventing the game of chess.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.02985074626865672,
+                "acc": 1.0,
+                "precision": 0.015151515151515152,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0008",
+        "question": "In what year was Facebook founded?",
+        "golden_answers": [
+            "2004"
+        ],
+        "output": {
+            "pred": "Facebook was founded in 2004. The reasoning path provided did not contain this information directly, so I answered based on known facts about Facebook's founding year.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.07692307692307693,
+                "acc": 1.0,
+                "precision": 0.04,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0009",
+        "question": "What is the speed of light in km/s (approximately)?",
+        "golden_answers": [
+            "300000",
+            "299792"
+        ],
+        "output": {
+            "pred": "The speed of light in a vacuum is approximately 299,792 kilometers per second.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.16666666666666669,
+                "acc": 1.0,
+                "precision": 0.09090909090909091,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0010",
+        "question": "In what city was the United Nations founded?",
+        "golden_answers": [
+            "San Francisco"
+        ],
+        "output": {
+            "pred": "The United Nations was not founded in any specific city; it was created in San Francisco, California in 1945. However, the headquarters of the United Nations is currently located in New York City, USA. Therefore, a concise and accurate answer to your question about where the UN was founded is:\n\nSan Francisco, California",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.07999999999999999,
+                "acc": 1.0,
+                "precision": 0.041666666666666664,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0011",
+        "question": "What does the acronym HTML stand for?",
+        "golden_answers": [
+            "HyperText Markup Language"
+        ],
+        "output": {
+            "pred": "HTML stands for HyperText Markup Language.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.6666666666666666,
+                "acc": 1.0,
+                "precision": 0.5,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0012",
+        "question": "Who was the first President of the United States?",
+        "golden_answers": [
+            "George Washington"
+        ],
+        "output": {
+            "pred": "The first President of the United States was George Washington, who took office on April 30, 1789.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.23529411764705882,
+                "acc": 1.0,
+                "precision": 0.13333333333333333,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0013",
+        "question": "In what year did World War II end?",
+        "golden_answers": [
+            "1945"
+        ],
+        "output": {
+            "pred": "The final answer is: 1945.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.4,
+                "acc": 1.0,
+                "precision": 0.25,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0014",
+        "question": "What country has won the most Olympic gold medals overall?",
+        "golden_answers": [
+            "United States",
+            "USA"
+        ],
+        "output": {
+            "pred": "The United States",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0015",
+        "question": "Who painted the Sistine Chapel ceiling?",
+        "golden_answers": [
+            "Michelangelo"
+        ],
+        "output": {
+            "pred": "The final answer is: Michelangelo was famous for painting the Sistine Chapel ceiling. However, if you need the specific year Michelangelo began working on it or other notable artworks by him besides the Sistine Chapel ceiling, those details are not provided in the given reasoning path. For the exact year of work on the Sistine Chapel ceiling, Michelangelo started around 1508 and completed it in about 1512-1513.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.03278688524590164,
+                "acc": 1.0,
+                "precision": 0.016666666666666666,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0016",
+        "question": "How many players are on a basketball team on the court at one time?",
+        "golden_answers": [
+            "5",
+            "five"
+        ],
+        "output": {
+            "pred": "In basketball, there are 5 players on the court at one time.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.16666666666666669,
+                "acc": 1.0,
+                "precision": 0.09090909090909091,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0017",
+        "question": "What country produces the most coffee in the world?",
+        "golden_answers": [
+            "Brazil"
+        ],
+        "output": {
+            "pred": "The production of coffee varies among different countries, but Brazil and Colombia are known for their significant contributions to global coffee production. There isn't a single country that consistently produces the most coffee in terms of either volume or value of production.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.05,
+                "acc": 1.0,
+                "precision": 0.02564102564102564,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0018",
+        "question": "What novel features the character Atticus Finch?",
+        "golden_answers": [
+            "To Kill a Mockingbird"
+        ],
+        "output": {
+            "pred": "\"To Kill a Mockingbird\" is a work of fiction. Some notable themes and messages conveyed through the novel include racial injustice, moral growth, empathy, childhood innocence, and the struggle for good to prevail in difficult times.\n\nWould you like to know more about any specific aspect of the novel?",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.1276595744680851,
+                "acc": 1.0,
+                "precision": 0.06818181818181818,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0019",
+        "question": "What artist cut off his own ear?",
+        "golden_answers": [
+            "Vincent van Gogh",
+            "Van Gogh"
+        ],
+        "output": {
+            "pred": "Francisco Goya",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0020",
+        "question": "Who wrote the novel 1984?",
+        "golden_answers": [
+            "George Orwell",
+            "Orwell"
+        ],
+        "output": {
+            "pred": "George Orwell wrote the novel \"1984\".",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.5714285714285715,
+                "acc": 1.0,
+                "precision": 0.4,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0021",
+        "question": "Who painted the Mona Lisa?",
+        "golden_answers": [
+            "Leonardo da Vinci",
+            "Leonardo"
+        ],
+        "output": {
+            "pred": "Leonardo da Vinci is primarily known for painting the Mona Lisa. Notable contributions of Leonardo da Vinci include a flying machine (helicopter concept), an early prototype of a tank, a parachute, armored fighting vehicle design, ideas for automobiles and submarines, as well as understanding human anatomy and innovative architecture designs.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.125,
+                "acc": 1.0,
+                "precision": 0.06666666666666667,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0022",
+        "question": "What type of pasta is shaped like small rice grains?",
+        "golden_answers": [
+            "Orzo",
+            "Risoni"
+        ],
+        "output": {
+            "pred": "Penne and Farro are types of pasta that are sometimes mistaken for being shaped like small rice grains. However, it's important to note that typical Farro (which is a type of wheat grain) is not usually considered \"small rice grains\" in terms of its shape or appearance. Penne, on the other hand, does have a shape somewhat reminiscent of small tube-shaped pasta often confused with rice-like grains.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0023",
+        "question": "What country does sushi originate from?",
+        "golden_answers": [
+            "Japan"
+        ],
+        "output": {
+            "pred": "The country where sushi originates from is Japan.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.25,
+                "acc": 1.0,
+                "precision": 0.14285714285714285,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0024",
+        "question": "What company makes the PlayStation gaming console?",
+        "golden_answers": [
+            "Sony"
+        ],
+        "output": {
+            "pred": "Sony Corporation",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.6666666666666666,
+                "acc": 1.0,
+                "precision": 0.5,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0025",
+        "question": "What country is known as the birthplace of pizza?",
+        "golden_answers": [
+            "Italy"
+        ],
+        "output": {
+            "pred": "Italy",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0026",
+        "question": "What company did Steve Jobs co-found?",
+        "golden_answers": [
+            "Apple",
+            "Apple Inc."
+        ],
+        "output": {
+            "pred": "Apple.",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0027",
+        "question": "What river forms part of the border between the USA and Mexico?",
+        "golden_answers": [
+            "Rio Grande",
+            "Rio Bravo"
+        ],
+        "output": {
+            "pred": "The Rio Grande forms part of the border between the USA and Mexico.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.33333333333333337,
+                "acc": 1.0,
+                "precision": 0.2,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0028",
+        "question": "Who invented the World Wide Web?",
+        "golden_answers": [
+            "Tim Berners-Lee",
+            "Timothy Berners-Lee"
+        ],
+        "output": {
+            "pred": "The World Wide Web was invented in 1989.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0029",
+        "question": "What was the name of the ship that sank after hitting an iceberg in 1912?",
+        "golden_answers": [
+            "Titanic",
+            "RMS Titanic"
+        ],
+        "output": {
+            "pred": "The ship that sank after hitting an iceberg in 1912 was the RMS Titanic.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.3076923076923077,
+                "acc": 1.0,
+                "precision": 0.18181818181818182,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0030",
+        "question": "Which tennis player has won the most Grand Slam titles (male)?",
+        "golden_answers": [
+            "Novak Djokovic",
+            "Djokovic"
+        ],
+        "output": {
+            "pred": "The tennis player who has won the most Grand Slam titles as of recent updates is Novak Djokovic. However, please note that this information might change with new achievements by current or past players.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.11764705882352941,
+                "acc": 1.0,
+                "precision": 0.0625,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0031",
+        "question": "What empire built the Colosseum?",
+        "golden_answers": [
+            "Roman Empire",
+            "Rome"
+        ],
+        "output": {
+            "pred": "The Colosseum was built by the Roman Empire during the rule of Emperor Vespasian, who ruled from approximately 69 to 79 AD. The construction of the Colosseum occurred between 70-80 AD, which falls within the late 1st century to early 2nd century AD timeframe.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.1,
+                "acc": 1.0,
+                "precision": 0.05263157894736842,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0032",
+        "question": "In what country is the ancient city of Machu Picchu located?",
+        "golden_answers": [
+            "Peru"
+        ],
+        "output": {
+            "pred": "Machu Picchu is located in Peru.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.2857142857142857,
+                "acc": 1.0,
+                "precision": 0.16666666666666666,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0033",
+        "question": "What is the maximum score in a single game of ten-pin bowling?",
+        "golden_answers": [
+            "300"
+        ],
+        "output": {
+            "pred": "The maximum score in a single game of ten-pin bowling, where each player has 10 frames to attempt knocking down all 10 pins (either with one ball or two subsequent balls), is 300. This score is achieved by successfully knocking down all pins in each roll across the entire game.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.04166666666666667,
+                "acc": 1.0,
+                "precision": 0.02127659574468085,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0034",
+        "question": "What does AI stand for?",
+        "golden_answers": [
+            "Artificial Intelligence"
+        ],
+        "output": {
+            "pred": "AI stands for Artificial Intelligence.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.5714285714285715,
+                "acc": 1.0,
+                "precision": 0.4,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0035",
+        "question": "What country has the most natural lakes?",
+        "golden_answers": [
+            "Canada"
+        ],
+        "output": {
+            "pred": "Canada has more lakes than any other country in the world, with about 60% of its freshwater lakes being within the total area, indicating that Canada likely has over one-third of their area covered by natural lakes. Therefore, the country with the most natural lakes is Canada.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.04545454545454545,
+                "acc": 1.0,
+                "precision": 0.023255813953488372,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0036",
+        "question": "What does CPU stand for?",
+        "golden_answers": [
+            "Central Processing Unit"
+        ],
+        "output": {
+            "pred": "CPU stands for Central Processing Unit.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.6666666666666666,
+                "acc": 1.0,
+                "precision": 0.5,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0037",
+        "question": "What country is Mount Kilimanjaro located in?",
+        "golden_answers": [
+            "Tanzania"
+        ],
+        "output": {
+            "pred": "Mount Kilimanjaro is located in Tanzania.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.2857142857142857,
+                "acc": 1.0,
+                "precision": 0.16666666666666666,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0038",
+        "question": "Who was the leader of Nazi Germany during World War II?",
+        "golden_answers": [
+            "Adolf Hitler",
+            "Hitler"
+        ],
+        "output": {
+            "pred": "Adolf Hitler was the leader of Nazi Germany during World War II.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.3076923076923077,
+                "acc": 1.0,
+                "precision": 0.18181818181818182,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0039",
+        "question": "What desert is the largest hot desert?",
+        "golden_answers": [
+            "Sahara",
+            "Sahara Desert"
+        ],
+        "output": {
+            "pred": "The largest hot desert in terms of area is the Sahara Desert. Specific names of hot deserts include the Gobi Desert, Arabian Desert, Great Victoria Desert, and Thar Desert.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.14285714285714288,
+                "acc": 1.0,
+                "precision": 0.07692307692307693,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0040",
+        "question": "What country won the 2018 FIFA World Cup?",
+        "golden_answers": [
+            "France"
+        ],
+        "output": {
+            "pred": "Russia won the 2018 FIFA World Cup.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0041",
+        "question": "What is the highest waterfall in the world?",
+        "golden_answers": [
+            "Angel Falls"
+        ],
+        "output": {
+            "pred": "The highest waterfall in the world is Angel Falls in Venezuela.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.3636363636363636,
+                "acc": 1.0,
+                "precision": 0.2222222222222222,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0042",
+        "question": "What revolution began in France in 1789?",
+        "golden_answers": [
+            "French Revolution"
+        ],
+        "output": {
+            "pred": "The French Revolution began in 1789.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.5714285714285715,
+                "acc": 1.0,
+                "precision": 0.4,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0043",
+        "question": "What is the name of the fictional detective created by Arthur Conan Doyle?",
+        "golden_answers": [
+            "Sherlock Holmes",
+            "Holmes"
+        ],
+        "output": {
+            "pred": "The name of the fictional detective created by Arthur Conan Doyle is Sherlock Holmes.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.2857142857142857,
+                "acc": 1.0,
+                "precision": 0.16666666666666666,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0044",
+        "question": "Who was the president of the USA when the first iPhone was released?",
+        "golden_answers": [
+            "George W. Bush",
+            "Bush"
+        ],
+        "output": {
+            "pred": "George W. Bush",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0045",
+        "question": "What is the national animal of Australia?",
+        "golden_answers": [
+            "Red Kangaroo",
+            "Kangaroo"
+        ],
+        "output": {
+            "pred": "The national animal of Australia is the koala. The color scheme of the Australian flag consists of blue and white.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0046",
+        "question": "In what city were the first modern Olympic Games held?",
+        "golden_answers": [
+            "Athens"
+        ],
+        "output": {
+            "pred": "The first modern Olympic Games were held in Athens, Greece in 1896.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.16666666666666669,
+                "acc": 1.0,
+                "precision": 0.09090909090909091,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0047",
+        "question": "In what year did the Soviet Union dissolve?",
+        "golden_answers": [
+            "1991"
+        ],
+        "output": {
+            "pred": "The Soviet Union dissolved in 1991.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.33333333333333337,
+                "acc": 1.0,
+                "precision": 0.2,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0048",
+        "question": "In what year was the first iPhone released?",
+        "golden_answers": [
+            "2007"
+        ],
+        "output": {
+            "pred": "The first iPhone was released in 2007.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.2857142857142857,
+                "acc": 1.0,
+                "precision": 0.16666666666666666,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0049",
+        "question": "What ancient wonder was located in Alexandria, Egypt?",
+        "golden_answers": [
+            "Library of Alexandria",
+            "Lighthouse of Alexandria",
+            "Great Library"
+        ],
+        "output": {
+            "pred": "The Lighthouse of Alexandria (also known as Pharos)",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.6,
+                "acc": 1.0,
+                "precision": 0.42857142857142855,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0050",
+        "question": "What year did the Berlin Wall fall?",
+        "golden_answers": [
+            "1989"
+        ],
+        "output": {
+            "pred": "The Berlin Wall did not occur and there was no specific event called \"Berlin Fall\" as you might be referring to the division or changes within Germany post-World War II. However, if you're asking about when East Germany (including Berlin) became a member of the Warsaw Pact, it occurred in 1955.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0051",
+        "question": "What is the atomic number of the element whose symbol is Au?",
+        "golden_answers": [
+            "79"
+        ],
+        "output": {
+            "pred": "The atomic number of the element whose symbol is Au (Gold) is 79.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.16666666666666669,
+                "acc": 1.0,
+                "precision": 0.09090909090909091,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0052",
+        "question": "What year was Google founded?",
+        "golden_answers": [
+            "1998"
+        ],
+        "output": {
+            "pred": "Google was founded in 1998.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.33333333333333337,
+                "acc": 1.0,
+                "precision": 0.2,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0053",
+        "question": "What sea lies to the north of the continent where the Sahara Desert is?",
+        "golden_answers": [
+            "Mediterranean Sea",
+            "Mediterranean"
+        ],
+        "output": {
+            "pred": "The Sea that lies to the north of the continent containing the Sahara Desert is the Mediterranean Sea.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.2666666666666667,
+                "acc": 1.0,
+                "precision": 0.15384615384615385,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0054",
+        "question": "What is the chemical symbol for water?",
+        "golden_answers": [
+            "H2O"
+        ],
+        "output": {
+            "pred": "The chemical symbol for water is H2O. However, there isn't a single-letter symbol like some elements (e.g., O for Oxygen). Therefore, the answer to what you are asking specifically about a single-letter symbol is that no single-letter symbol exists for water in the same way it does for other elements.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.04347826086956522,
+                "acc": 1.0,
+                "precision": 0.022222222222222223,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0055",
+        "question": "What is the capital of the country with the longest coastline?",
+        "golden_answers": [
+            "Ottawa"
+        ],
+        "output": {
+            "pred": "Ottawa",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0056",
+        "question": "Who was the first female Prime Minister of the United Kingdom?",
+        "golden_answers": [
+            "Margaret Thatcher",
+            "Thatcher"
+        ],
+        "output": {
+            "pred": "Margaret Thatcher was the first female Prime Minister of the United Kingdom, and she took office in 1979.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.2222222222222222,
+                "acc": 1.0,
+                "precision": 0.125,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0057",
+        "question": "What country is famous for inventing chocolate?",
+        "golden_answers": [
+            "Switzerland",
+            "Belgium",
+            "Mexico"
+        ],
+        "output": {
+            "pred": "The country famous for inventing chocolate is generally considered to be the Netherlands. However, it's important to note that chocolate has a complex history with multiple countries contributing to its development over centuries. The Dutch are often credited with developing solid chocolate in the 16th century.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0058",
+        "question": "What is the name of Harry Potter's school?",
+        "golden_answers": [
+            "Hogwarts",
+            "Hogwarts School of Witchcraft and Wizardry"
+        ],
+        "output": {
+            "pred": "Hogwarts School of Witchcraft and Wizardry.",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0059",
+        "question": "What mountain range runs through the country whose capital is Madrid?",
+        "golden_answers": [
+            "Pyrenees",
+            "Sierra Nevada"
+        ],
+        "output": {
+            "pred": "The Pyrenees mountain range.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.5,
+                "acc": 1.0,
+                "precision": 0.3333333333333333,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0060",
+        "question": "Who wrote the novel Pride and Prejudice?",
+        "golden_answers": [
+            "Jane Austen",
+            "Austen"
+        ],
+        "output": {
+            "pred": "The novel Pride and Prejudice was written by Jane Austen, and it was initially published in 1796.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.2222222222222222,
+                "acc": 1.0,
+                "precision": 0.125,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0061",
+        "question": "What element did Marie Curie name after her home country?",
+        "golden_answers": [
+            "Polonium"
+        ],
+        "output": {
+            "pred": "Marie Curie named polonium after her home country, Poland.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.19999999999999998,
+                "acc": 1.0,
+                "precision": 0.1111111111111111,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0062",
+        "question": "Who wrote the Communist Manifesto?",
+        "golden_answers": [
+            "Karl Marx",
+            "Marx and Engels",
+            "Karl Marx and Friedrich Engels"
+        ],
+        "output": {
+            "pred": "Karl Marx and Friedrich Engels wrote the Communist Manifesto.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.7692307692307693,
+                "acc": 1.0,
+                "precision": 0.625,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0063",
+        "question": "What country did Christopher Columbus sail for when he reached the Americas?",
+        "golden_answers": [
+            "Spain"
+        ],
+        "output": {
+            "pred": "Christopher Columbus sailed for Spain when he reached the Americas.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.19999999999999998,
+                "acc": 1.0,
+                "precision": 0.1111111111111111,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0064",
+        "question": "Who wrote the play Romeo and Juliet?",
+        "golden_answers": [
+            "William Shakespeare",
+            "Shakespeare"
+        ],
+        "output": {
+            "pred": "The specific year that is believed to be the earliest possible writing time for Romeo and Juliet is 1587.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0065",
+        "question": "What ocean does the Amazon River empty into?",
+        "golden_answers": [
+            "Atlantic Ocean",
+            "Atlantic"
+        ],
+        "output": {
+            "pred": "The Amazon River empties into the Atlantic Ocean.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.5,
+                "acc": 1.0,
+                "precision": 0.3333333333333333,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0066",
+        "question": "What is the title of J.R.R. Tolkien's most famous trilogy?",
+        "golden_answers": [
+            "The Lord of the Rings"
+        ],
+        "output": {
+            "pred": "The title of J.R.R. Tolkien's most famous trilogy is \"The Lord of the Rings.\"",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.42857142857142855,
+                "acc": 1.0,
+                "precision": 0.2727272727272727,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0067",
+        "question": "What language is spoken in the country where the headquarters of Interpol is located?",
+        "golden_answers": [
+            "French"
+        ],
+        "output": {
+            "pred": "French.",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0068",
+        "question": "What is the longest river in the world?",
+        "golden_answers": [
+            "Nile",
+            "Nile River"
+        ],
+        "output": {
+            "pred": "The longest river in the world is the Nile River, which flows through northeastern Africa. Its total length is approximately 6,650 kilometers (4,132 miles).",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.17391304347826084,
+                "acc": 1.0,
+                "precision": 0.09523809523809523,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0069",
+        "question": "Who is the founder of Tesla and SpaceX?",
+        "golden_answers": [
+            "Elon Musk"
+        ],
+        "output": {
+            "pred": "The founders of Tesla are Elon Musk (along with Martin Eberhard and JB Straub), and the founder of SpaceX is Elon Musk.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.18181818181818182,
+                "acc": 1.0,
+                "precision": 0.1,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0070",
+        "question": "What is the capital of the country that won the most medals at the 2020 Olympics?",
+        "golden_answers": [
+            "Washington D.C.",
+            "Washington DC"
+        ],
+        "output": {
+            "pred": "The final answer is not determined solely based on the provided reasoning path as it lacks specific information about which countries participated in the 2020 Olympics and who won the most medals. To directly answer the question without further context:\n\nThe country that won the most medals at the 2020 Tokyo Olympics was the United States, with a total of 86 medals (including 38 golds). The capital city of the United States is Washington D.C.\n\nTherefore, the answer to the question \"What is the capital of the country that won the most medals at the 2020 Olympics?\" is:\n\nWashington D.C.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.047619047619047616,
+                "acc": 1.0,
+                "precision": 0.024390243902439025,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0071",
+        "question": "What gas makes up most of Earth's atmosphere?",
+        "golden_answers": [
+            "Nitrogen"
+        ],
+        "output": {
+            "pred": "Nitrogen",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0072",
+        "question": "What fruit is used to make wine?",
+        "golden_answers": [
+            "Grapes"
+        ],
+        "output": {
+            "pred": "Wines primarily use grapes as the primary ingredient in their production.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.18181818181818182,
+                "acc": 1.0,
+                "precision": 0.1,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0073",
+        "question": "Which US president abolished slavery?",
+        "golden_answers": [
+            "Abraham Lincoln",
+            "Lincoln"
+        ],
+        "output": {
+            "pred": "Abraham Lincoln",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0074",
+        "question": "Who was the first person to win two Nobel Prizes?",
+        "golden_answers": [
+            "Marie Curie"
+        ],
+        "output": {
+            "pred": "The final answer is: Alfred Nobel. However, it should be noted that Alfred Nobel did not win a Nobel Prize himself; rather, the first Nobel Prizes were awarded posthumously to Alfred for his contributions to chemistry and physics. Therefore, no individual won two Nobel Prizes as of now.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0075",
+        "question": "What planet is known as the Red Planet?",
+        "golden_answers": [
+            "Mars"
+        ],
+        "output": {
+            "pred": "Mars is often referred to as the Red Planet due to its red coloration caused by the presence of iron oxide on its surface.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.08695652173913045,
+                "acc": 1.0,
+                "precision": 0.045454545454545456,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0076",
+        "question": "What is the capital of the country where the Eiffel Tower is located?",
+        "golden_answers": [
+            "Paris"
+        ],
+        "output": {
+            "pred": "The capital of the country where the Eiffel Tower is located is Paris.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.18181818181818182,
+                "acc": 1.0,
+                "precision": 0.1,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0077",
+        "question": "What is the smallest country in the world?",
+        "golden_answers": [
+            "Vatican City",
+            "Vatican"
+        ],
+        "output": {
+            "pred": "The term \"smallest country\" can vary depending on whether we consider it by land area, population, or some other criterion. However, countries often cited as very small include Vatican City, Monaco, and Nauru. Thus, these are commonly considered among the smallest in the world under various definitions.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.08695652173913045,
+                "acc": 1.0,
+                "precision": 0.045454545454545456,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0078",
+        "question": "What ocean would you cross to travel from London to New York?",
+        "golden_answers": [
+            "Atlantic Ocean",
+            "Atlantic"
+        ],
+        "output": {
+            "pred": "To travel from London to New York, one needs to cross the Atlantic Ocean.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.2666666666666667,
+                "acc": 1.0,
+                "precision": 0.15384615384615385,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0079",
+        "question": "What Shakespeare play features the line 'To be or not to be'?",
+        "golden_answers": [
+            "Hamlet"
+        ],
+        "output": {
+            "pred": "The line \"To be or not to be\" actually comes from the play \"Hamlet\" by William Shakespeare. However, your reasoning path incorrectly identifies who wrote \"Hamlet\". The correct answer directly answering the question \"What Shakespeare play features the line 'To be or not to be'?\" is:\n\nAnswer: \"Hamlet\"",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.04545454545454545,
+                "acc": 1.0,
+                "precision": 0.023255813953488372,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0080",
+        "question": "What is the deepest lake in the world?",
+        "golden_answers": [
+            "Lake Baikal",
+            "Baikal"
+        ],
+        "output": {
+            "pred": "The deepest lake in the world is Lake Baikal, located in Siberia, Asia.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.3076923076923077,
+                "acc": 1.0,
+                "precision": 0.18181818181818182,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0081",
+        "question": "What is the best-selling book of all time?",
+        "golden_answers": [
+            "The Bible",
+            "Bible"
+        ],
+        "output": {
+            "pred": "The best-selling book of all time varies depending on how one measures sales (e.g., copies sold, physical books printed), but if we consider the number of copies sold:\n\nThe best-selling book of all time is \"The Bible.\" When it comes to total print runs and translations, far more copies have been produced than any other single book.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.037037037037037035,
+                "acc": 1.0,
+                "precision": 0.018867924528301886,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0082",
+        "question": "What is the official language of the country that invented the printing press?",
+        "golden_answers": [
+            "German"
+        ],
+        "output": {
+            "pred": "The official language of the country that invented the printing press is unknown, as Johannes Gutenberg did not live in any specific country and thus no official national language can be attributed to him.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0083",
+        "question": "What is the national dish of Spain?",
+        "golden_answers": [
+            "Paella"
+        ],
+        "output": {
+            "pred": "The national dish of Spain is Paella. However, based on the reasoning path provided, it seems the focus was not about the national dish but rather the language. Therefore, the direct answer to the question \"What is the national dish of Spain?\" is:\n\nPaella.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.05405405405405406,
+                "acc": 1.0,
+                "precision": 0.027777777777777776,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0084",
+        "question": "What scientist proposed the heliocentric model of the solar system?",
+        "golden_answers": [
+            "Copernicus",
+            "Nicolaus Copernicus"
+        ],
+        "output": {
+            "pred": "Nicolaus Copernicus proposed the heliocentric model of the solar system, and he published his work on this model in the year 1543.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.1904761904761905,
+                "acc": 1.0,
+                "precision": 0.10526315789473684,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0085",
+        "question": "In what country was the company Samsung founded?",
+        "golden_answers": [
+            "South Korea"
+        ],
+        "output": {
+            "pred": "The company Samsung was founded in South Korea.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.4444444444444445,
+                "acc": 1.0,
+                "precision": 0.2857142857142857,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0086",
+        "question": "What river flows through the capital of Australia?",
+        "golden_answers": [
+            "Molonglo River",
+            "Molonglo"
+        ],
+        "output": {
+            "pred": "The main river that flows through Canberra, the capital city of Australia, is the Molonglo Creek, which is a tributary of the Murrumba-Didge (Murrumbidgee) River.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.18181818181818182,
+                "acc": 1.0,
+                "precision": 0.1,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0087",
+        "question": "What is the most widely used programming language?",
+        "golden_answers": [
+            "Python",
+            "JavaScript"
+        ],
+        "output": {
+            "pred": "The most widely used programming languages, based on commonly used and industry benchmarks, are Python, Java, and JavaScript. Beyond these three, some other high-level programming languages that are often used include:\n\n- C++\n- Ruby\n- Swift\n\nThese languages have their own unique strengths and are popular in various domains such as system software development (C++), web frameworks (Ruby on Rails), and mobile app development (Swift).",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.031746031746031744,
+                "acc": 1.0,
+                "precision": 0.016129032258064516,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0088",
+        "question": "What is the national sport of Japan?",
+        "golden_answers": [
+            "Sumo",
+            "Sumo wrestling"
+        ],
+        "output": {
+            "pred": "The national sport of Japan is Sumo. Sumo has deep historical roots in Japanese culture, originating from Shinto rituals that include a purification rite known as misogi. It holds significant spiritual and cultural importance within the nation's social fabric.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.05405405405405406,
+                "acc": 1.0,
+                "precision": 0.027777777777777776,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0089",
+        "question": "What year did the first humans land on the Moon?",
+        "golden_answers": [
+            "1969"
+        ],
+        "output": {
+            "pred": "The first human landings on the Moon occurred in the 1960s, but to be more specific:\n\nThe first person to walk on the Moon was Neil Armstrong when he walked there alongside Edwin Aldrin Jr. as part of the Apollo 11 mission. This historic event took place on July 20, 1969.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.04347826086956522,
+                "acc": 1.0,
+                "precision": 0.022222222222222223,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0090",
+        "question": "What organ in the human body produces insulin?",
+        "golden_answers": [
+            "Pancreas"
+        ],
+        "output": {
+            "pred": "The organ that produces insulin in the human body is the pancreas.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.19999999999999998,
+                "acc": 1.0,
+                "precision": 0.1111111111111111,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0091",
+        "question": "What country is the company that makes Nutella headquartered in?",
+        "golden_answers": [
+            "Italy"
+        ],
+        "output": {
+            "pred": "Based on the information provided and retrieved from the documents, Ferrero primarily produces Nutella but there is no direct indication of where their headquarters is located. Further research would be necessary to determine the exact country where Ferrero's headquarters is situated.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0092",
+        "question": "What is the most populous country in the world?",
+        "golden_answers": [
+            "India",
+            "China"
+        ],
+        "output": {
+            "pred": "The most populous country in the world is China, with a population greater than 1.5 billion.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.14285714285714288,
+                "acc": 1.0,
+                "precision": 0.07692307692307693,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0093",
+        "question": "What is the largest city in the country where the Colosseum is located?",
+        "golden_answers": [
+            "Rome"
+        ],
+        "output": {
+            "pred": "The largest city in Italy is Milan.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0094",
+        "question": "Who composed the Four Seasons?",
+        "golden_answers": [
+            "Antonio Vivaldi",
+            "Vivaldi"
+        ],
+        "output": {
+            "pred": "Antonio Vivaldi",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0095",
+        "question": "What company created the Android operating system?",
+        "golden_answers": [
+            "Google"
+        ],
+        "output": {
+            "pred": "The Android operating system was first introduced in 2008 by Google. The official announcement of the Android open-source project came in September 2003.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.09523809523809523,
+                "acc": 1.0,
+                "precision": 0.05,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0096",
+        "question": "What is the currency of the country where the Acropolis is located?",
+        "golden_answers": [
+            "Euro"
+        ],
+        "output": {
+            "pred": "The currency of the country where the Acropolis is located (Greece) is the Euro.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.18181818181818182,
+                "acc": 1.0,
+                "precision": 0.1,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0097",
+        "question": "How long is a marathon in kilometers (approx)?",
+        "golden_answers": [
+            "42",
+            "42.195",
+            "42 km"
+        ],
+        "output": {
+            "pred": "A marathon in kilometers (approx) is 42.195 kilometers.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.25,
+                "acc": 1.0,
+                "precision": 0.14285714285714285,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0098",
+        "question": "What is the largest ocean on Earth?",
+        "golden_answers": [
+            "Pacific Ocean",
+            "Pacific"
+        ],
+        "output": {
+            "pred": "The Pacific Ocean",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0099",
+        "question": "What country is Gouda cheese originally from?",
+        "golden_answers": [
+            "Netherlands",
+            "Holland"
+        ],
+        "output": {
+            "pred": "Gouda cheese is originally from the Netherlands.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.2857142857142857,
+                "acc": 1.0,
+                "precision": 0.16666666666666666,
+                "recall": 1.0
+            }
+        }
+    }
+]

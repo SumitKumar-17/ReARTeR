@@ -1,0 +1,2752 @@
+[
+    {
+        "id": "synth_0000",
+        "question": "What sport is played at Wimbledon?",
+        "golden_answers": [
+            "Tennis"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What sport is played at Wimbledon?\nAnswer:"
+                }
+            ],
+            "pred": "Tennis",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0001",
+        "question": "What is the official language of the most populous country in South America?",
+        "golden_answers": [
+            "Portuguese"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the official language of the most populous country in South America?\nAnswer:"
+                }
+            ],
+            "pred": "The official language of the most populous country in South America (Brazil) is Portuguese.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.15384615384615385,
+                "acc": 1.0,
+                "precision": 0.08333333333333333,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0002",
+        "question": "What ocean borders the country that contains the Amazon River?",
+        "golden_answers": [
+            "Atlantic Ocean",
+            "Atlantic"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What ocean borders the country that contains the Amazon River?\nAnswer:"
+                }
+            ],
+            "pred": "The Pacific Ocean borders the country that contains the Amazon River - Brazil.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.1818181818181818,
+                "acc": 0.0,
+                "precision": 0.1111111111111111,
+                "recall": 0.5
+            }
+        }
+    },
+    {
+        "id": "synth_0003",
+        "question": "What country did Ludwig van Beethoven come from?",
+        "golden_answers": [
+            "Germany"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What country did Ludwig van Beethoven come from?\nAnswer:"
+                }
+            ],
+            "pred": "Germany",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0004",
+        "question": "What country is home to the most volcanoes?",
+        "golden_answers": [
+            "Indonesia"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What country is home to the most volcanoes?\nAnswer:"
+                }
+            ],
+            "pred": "The country with the highest number of active volcanoes is Alaska in the United States.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0005",
+        "question": "What country was the inventor of the telephone born in?",
+        "golden_answers": [
+            "Scotland"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What country was the inventor of the telephone born in?\nAnswer:"
+                }
+            ],
+            "pred": "United States",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0006",
+        "question": "Who wrote Don Quixote?",
+        "golden_answers": [
+            "Miguel de Cervantes",
+            "Cervantes"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: Who wrote Don Quixote?\nAnswer:"
+                }
+            ],
+            "pred": "Miguel de Cervantes vi\u1ebft cu\u1ed1n \"Don Quixote\".",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.6,
+                "acc": 1.0,
+                "precision": 0.42857142857142855,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0007",
+        "question": "What country invented the game of chess?",
+        "golden_answers": [
+            "India"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What country invented the game of chess?\nAnswer:"
+                }
+            ],
+            "pred": "India is traditionally credited with inventing chess.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.25,
+                "acc": 1.0,
+                "precision": 0.14285714285714285,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0008",
+        "question": "In what year was Facebook founded?",
+        "golden_answers": [
+            "2004"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: In what year was Facebook founded?\nAnswer:"
+                }
+            ],
+            "pred": "Facebook was founded in 2004.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.33333333333333337,
+                "acc": 1.0,
+                "precision": 0.2,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0009",
+        "question": "What is the speed of light in km/s (approximately)?",
+        "golden_answers": [
+            "300000",
+            "299792"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the speed of light in km/s (approximately)?\nAnswer:"
+                }
+            ],
+            "pred": "The speed of light in a vacuum is approximately 300,000 km/s.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.19999999999999998,
+                "acc": 1.0,
+                "precision": 0.1111111111111111,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0010",
+        "question": "In what city was the United Nations founded?",
+        "golden_answers": [
+            "San Francisco"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: In what city was the United Nations founded?\nAnswer:"
+                }
+            ],
+            "pred": "United Nations was founded in New York City.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0011",
+        "question": "What does the acronym HTML stand for?",
+        "golden_answers": [
+            "HyperText Markup Language"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What does the acronym HTML stand for?\nAnswer:"
+                }
+            ],
+            "pred": "Hyper Text Markup Language",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.5714285714285715,
+                "acc": 0.0,
+                "precision": 0.5,
+                "recall": 0.6666666666666666
+            }
+        }
+    },
+    {
+        "id": "synth_0012",
+        "question": "Who was the first President of the United States?",
+        "golden_answers": [
+            "George Washington"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: Who was the first President of the United States?\nAnswer:"
+                }
+            ],
+            "pred": "The first President of the United States was George Washington.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.4,
+                "acc": 1.0,
+                "precision": 0.25,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0013",
+        "question": "In what year did World War II end?",
+        "golden_answers": [
+            "1945"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: In what year did World War II end?\nAnswer:"
+                }
+            ],
+            "pred": "World War II ended in 1945.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.2857142857142857,
+                "acc": 1.0,
+                "precision": 0.16666666666666666,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0014",
+        "question": "What country has won the most Olympic gold medals overall?",
+        "golden_answers": [
+            "United States",
+            "USA"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What country has won the most Olympic gold medals overall?\nAnswer:"
+                }
+            ],
+            "pred": "United States",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0015",
+        "question": "Who painted the Sistine Chapel ceiling?",
+        "golden_answers": [
+            "Michelangelo"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: Who painted the Sistine Chapel ceiling?\nAnswer:"
+                }
+            ],
+            "pred": "Michelangelo Buonarroti painted the Sistine Chapel ceiling.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.2857142857142857,
+                "acc": 1.0,
+                "precision": 0.16666666666666666,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0016",
+        "question": "How many players are on a basketball team on the court at one time?",
+        "golden_answers": [
+            "5",
+            "five"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: How many players are on a basketball team on the court at one time?\nAnswer:"
+                }
+            ],
+            "pred": "5",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0017",
+        "question": "What country produces the most coffee in the world?",
+        "golden_answers": [
+            "Brazil"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What country produces the most coffee in the world?\nAnswer:"
+                }
+            ],
+            "pred": "Brazil",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0018",
+        "question": "What novel features the character Atticus Finch?",
+        "golden_answers": [
+            "To Kill a Mockingbird"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What novel features the character Atticus Finch?\nAnswer:"
+                }
+            ],
+            "pred": "\"To Kill a Mockingbird\" novel features the character Atticus Finch.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.5454545454545454,
+                "acc": 1.0,
+                "precision": 0.375,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0019",
+        "question": "What artist cut off his own ear?",
+        "golden_answers": [
+            "Vincent van Gogh",
+            "Van Gogh"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What artist cut off his own ear?\nAnswer:"
+                }
+            ],
+            "pred": "Edgar Allan Poe is often mistakenly attributed with cutting off his own ear. However, this incident did not involve self-mutilation and is an urban legend. The correct context might be the Romantic poet Charles Baudelaire who wrote about such a hypothetical event in his book \"Les Contemplations.\" Actual historical examples of artists cutting their ears typically refer to different individuals with varying stories.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0020",
+        "question": "Who wrote the novel 1984?",
+        "golden_answers": [
+            "George Orwell",
+            "Orwell"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: Who wrote the novel 1984?\nAnswer:"
+                }
+            ],
+            "pred": "George Orwell wrote \"1984\".",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.6666666666666666,
+                "acc": 1.0,
+                "precision": 0.5,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0021",
+        "question": "Who painted the Mona Lisa?",
+        "golden_answers": [
+            "Leonardo da Vinci",
+            "Leonardo"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: Who painted the Mona Lisa?\nAnswer:"
+                }
+            ],
+            "pred": "Leonardo da Vinci painted the Mona Lisa.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.6666666666666666,
+                "acc": 1.0,
+                "precision": 0.5,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0022",
+        "question": "What type of pasta is shaped like small rice grains?",
+        "golden_answers": [
+            "Orzo",
+            "Risoni"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What type of pasta is shaped like small rice grains?\nAnswer:"
+                }
+            ],
+            "pred": "Ricotta salata pasta",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0023",
+        "question": "What country does sushi originate from?",
+        "golden_answers": [
+            "Japan"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What country does sushi originate from?\nAnswer:"
+                }
+            ],
+            "pred": "Japan",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0024",
+        "question": "What company makes the PlayStation gaming console?",
+        "golden_answers": [
+            "Sony"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What company makes the PlayStation gaming console?\nAnswer:"
+                }
+            ],
+            "pred": "Sony",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0025",
+        "question": "What country is known as the birthplace of pizza?",
+        "golden_answers": [
+            "Italy"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What country is known as the birthplace of pizza?\nAnswer:"
+                }
+            ],
+            "pred": "Italy",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0026",
+        "question": "What company did Steve Jobs co-found?",
+        "golden_answers": [
+            "Apple",
+            "Apple Inc."
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What company did Steve Jobs co-found?\nAnswer:"
+                }
+            ],
+            "pred": "Steve Jobs co-founded Apple Inc.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.5714285714285715,
+                "acc": 1.0,
+                "precision": 0.4,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0027",
+        "question": "What river forms part of the border between the USA and Mexico?",
+        "golden_answers": [
+            "Rio Grande",
+            "Rio Bravo"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What river forms part of the border between the USA and Mexico?\nAnswer:"
+                }
+            ],
+            "pred": "The Rio Grande forms part of the border between the USA and Mexico.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.33333333333333337,
+                "acc": 1.0,
+                "precision": 0.2,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0028",
+        "question": "Who invented the World Wide Web?",
+        "golden_answers": [
+            "Tim Berners-Lee",
+            "Timothy Berners-Lee"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: Who invented the World Wide Web?\nAnswer:"
+                }
+            ],
+            "pred": "Tim Berners-Lee invented the World Wide Web.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.5,
+                "acc": 1.0,
+                "precision": 0.3333333333333333,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0029",
+        "question": "What was the name of the ship that sank after hitting an iceberg in 1912?",
+        "golden_answers": [
+            "Titanic",
+            "RMS Titanic"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What was the name of the ship that sank after hitting an iceberg in 1912?\nAnswer:"
+                }
+            ],
+            "pred": "RMS Titanic",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0030",
+        "question": "Which tennis player has won the most Grand Slam titles (male)?",
+        "golden_answers": [
+            "Novak Djokovic",
+            "Djokovic"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: Which tennis player has won the most Grand Slam titles (male)?\nAnswer:"
+                }
+            ],
+            "pred": "Roger Federer",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0031",
+        "question": "What empire built the Colosseum?",
+        "golden_answers": [
+            "Roman Empire",
+            "Rome"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What empire built the Colosseum?\nAnswer:"
+                }
+            ],
+            "pred": "Roman Empire",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0032",
+        "question": "In what country is the ancient city of Machu Picchu located?",
+        "golden_answers": [
+            "Peru"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: In what country is the ancient city of Machu Picchu located?\nAnswer:"
+                }
+            ],
+            "pred": "Peru",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0033",
+        "question": "What is the maximum score in a single game of ten-pin bowling?",
+        "golden_answers": [
+            "300"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the maximum score in a single game of ten-pin bowling?\nAnswer:"
+                }
+            ],
+            "pred": "The maximum score in a single game of ten-pin bowling is 300.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.18181818181818182,
+                "acc": 1.0,
+                "precision": 0.1,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0034",
+        "question": "What does AI stand for?",
+        "golden_answers": [
+            "Artificial Intelligence"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What does AI stand for?\nAnswer:"
+                }
+            ],
+            "pred": "Artificial Intelligence",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0035",
+        "question": "What country has the most natural lakes?",
+        "golden_answers": [
+            "Canada"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What country has the most natural lakes?\nAnswer:"
+                }
+            ],
+            "pred": "Canada",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0036",
+        "question": "What does CPU stand for?",
+        "golden_answers": [
+            "Central Processing Unit"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What does CPU stand for?\nAnswer:"
+                }
+            ],
+            "pred": "CPU stands for Central Processing Unit.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.6666666666666666,
+                "acc": 1.0,
+                "precision": 0.5,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0037",
+        "question": "What country is Mount Kilimanjaro located in?",
+        "golden_answers": [
+            "Tanzania"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What country is Mount Kilimanjaro located in?\nAnswer:"
+                }
+            ],
+            "pred": "Mount Kilimanjaro is located in Tanzania.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.2857142857142857,
+                "acc": 1.0,
+                "precision": 0.16666666666666666,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0038",
+        "question": "Who was the leader of Nazi Germany during World War II?",
+        "golden_answers": [
+            "Adolf Hitler",
+            "Hitler"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: Who was the leader of Nazi Germany during World War II?\nAnswer:"
+                }
+            ],
+            "pred": "Adolf Hitler was the leader of Nazi Germany during World War II.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.3076923076923077,
+                "acc": 1.0,
+                "precision": 0.18181818181818182,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0039",
+        "question": "What desert is the largest hot desert?",
+        "golden_answers": [
+            "Sahara",
+            "Sahara Desert"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What desert is the largest hot desert?\nAnswer:"
+                }
+            ],
+            "pred": "The largest hot desert is the Sahara Desert.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.5,
+                "acc": 1.0,
+                "precision": 0.3333333333333333,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0040",
+        "question": "What country won the 2018 FIFA World Cup?",
+        "golden_answers": [
+            "France"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What country won the 2018 FIFA World Cup?\nAnswer:"
+                }
+            ],
+            "pred": "Germany",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0041",
+        "question": "What is the highest waterfall in the world?",
+        "golden_answers": [
+            "Angel Falls"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the highest waterfall in the world?\nAnswer:"
+                }
+            ],
+            "pred": "Angel Falls in Venezuela is considered the highest waterfall in the world at 979 meters (3,212 feet).",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.23529411764705882,
+                "acc": 1.0,
+                "precision": 0.13333333333333333,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0042",
+        "question": "What revolution began in France in 1789?",
+        "golden_answers": [
+            "French Revolution"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What revolution began in France in 1789?\nAnswer:"
+                }
+            ],
+            "pred": "The French Revolution began in France in 1789.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.4444444444444445,
+                "acc": 1.0,
+                "precision": 0.2857142857142857,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0043",
+        "question": "What is the name of the fictional detective created by Arthur Conan Doyle?",
+        "golden_answers": [
+            "Sherlock Holmes",
+            "Holmes"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the name of the fictional detective created by Arthur Conan Doyle?\nAnswer:"
+                }
+            ],
+            "pred": "Sherlock Holmes",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0044",
+        "question": "Who was the president of the USA when the first iPhone was released?",
+        "golden_answers": [
+            "George W. Bush",
+            "Bush"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: Who was the president of the USA when the first iPhone was released?\nAnswer:"
+                }
+            ],
+            "pred": "Barack Obama",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0045",
+        "question": "What is the national animal of Australia?",
+        "golden_answers": [
+            "Red Kangaroo",
+            "Kangaroo"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the national animal of Australia?\nAnswer:"
+                }
+            ],
+            "pred": "Kangaroo",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0046",
+        "question": "In what city were the first modern Olympic Games held?",
+        "golden_answers": [
+            "Athens"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: In what city were the first modern Olympic Games held?\nAnswer:"
+                }
+            ],
+            "pred": "Athens",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0047",
+        "question": "In what year did the Soviet Union dissolve?",
+        "golden_answers": [
+            "1991"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: In what year did the Soviet Union dissolve?\nAnswer:"
+                }
+            ],
+            "pred": "The Soviet Union dissolved in 1991.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.33333333333333337,
+                "acc": 1.0,
+                "precision": 0.2,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0048",
+        "question": "In what year was the first iPhone released?",
+        "golden_answers": [
+            "2007"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: In what year was the first iPhone released?\nAnswer:"
+                }
+            ],
+            "pred": "2007",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0049",
+        "question": "What ancient wonder was located in Alexandria, Egypt?",
+        "golden_answers": [
+            "Library of Alexandria",
+            "Lighthouse of Alexandria",
+            "Great Library"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What ancient wonder was located in Alexandria, Egypt?\nAnswer:"
+                }
+            ],
+            "pred": "The Lighthouse of Alexandria (also known as the Pharos of Alexandria)",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.5,
+                "acc": 1.0,
+                "precision": 0.3333333333333333,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0050",
+        "question": "What year did the Berlin Wall fall?",
+        "golden_answers": [
+            "1989"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What year did the Berlin Wall fall?\nAnswer:"
+                }
+            ],
+            "pred": "The Berlin Wall has not historically existed as an actual physical structure that fell, so there is no specific year to provide for this question. Perhaps you may be referring to the Battle of Berlin or some other event? If it's not clear what you're asking about, could you please clarify your question?",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0051",
+        "question": "What is the atomic number of the element whose symbol is Au?",
+        "golden_answers": [
+            "79"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the atomic number of the element whose symbol is Au?\nAnswer:"
+                }
+            ],
+            "pred": "The atomic number of the element whose symbol is Au (Gold) is 79.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.16666666666666669,
+                "acc": 1.0,
+                "precision": 0.09090909090909091,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0052",
+        "question": "What year was Google founded?",
+        "golden_answers": [
+            "1998"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What year was Google founded?\nAnswer:"
+                }
+            ],
+            "pred": "1998",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0053",
+        "question": "What sea lies to the north of the continent where the Sahara Desert is?",
+        "golden_answers": [
+            "Mediterranean Sea",
+            "Mediterranean"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What sea lies to the north of the continent where the Sahara Desert is?\nAnswer:"
+                }
+            ],
+            "pred": "Atlantic Ocean\n\nThe Sahara Desert lies primarily in Africa, and to its north sits the Atlantic Ocean.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0054",
+        "question": "What is the chemical symbol for water?",
+        "golden_answers": [
+            "H2O"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the chemical symbol for water?\nAnswer:"
+                }
+            ],
+            "pred": "H\u2082O",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0055",
+        "question": "What is the capital of the country with the longest coastline?",
+        "golden_answers": [
+            "Ottawa"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the capital of the country with the longest coastline?\nAnswer:"
+                }
+            ],
+            "pred": "Canada has the longest coastline and its capital is Ottawa.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.19999999999999998,
+                "acc": 1.0,
+                "precision": 0.1111111111111111,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0056",
+        "question": "Who was the first female Prime Minister of the United Kingdom?",
+        "golden_answers": [
+            "Margaret Thatcher",
+            "Thatcher"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: Who was the first female Prime Minister of the United Kingdom?\nAnswer:"
+                }
+            ],
+            "pred": "There has never been a female Prime Minister of the United Kingdom.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0057",
+        "question": "What country is famous for inventing chocolate?",
+        "golden_answers": [
+            "Switzerland",
+            "Belgium",
+            "Mexico"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What country is famous for inventing chocolate?\nAnswer:"
+                }
+            ],
+            "pred": "Belgium",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0058",
+        "question": "What is the name of Harry Potter's school?",
+        "golden_answers": [
+            "Hogwarts",
+            "Hogwarts School of Witchcraft and Wizardry"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the name of Harry Potter's school?\nAnswer:"
+                }
+            ],
+            "pred": "Harry Potter's school is Hogwarts School of Witchcraft and Wizardry.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.7499999999999999,
+                "acc": 1.0,
+                "precision": 0.6,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0059",
+        "question": "What mountain range runs through the country whose capital is Madrid?",
+        "golden_answers": [
+            "Pyrenees",
+            "Sierra Nevada"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What mountain range runs through the country whose capital is Madrid?\nAnswer:"
+                }
+            ],
+            "pred": "The mountain range that runs through the country with Madrid as its capital is the Sistema Central (Central System) mountains.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0060",
+        "question": "Who wrote the novel Pride and Prejudice?",
+        "golden_answers": [
+            "Jane Austen",
+            "Austen"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: Who wrote the novel Pride and Prejudice?\nAnswer:"
+                }
+            ],
+            "pred": "Jane Austen wrote the novel Pride and Prejudice.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.4444444444444445,
+                "acc": 1.0,
+                "precision": 0.2857142857142857,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0061",
+        "question": "What element did Marie Curie name after her home country?",
+        "golden_answers": [
+            "Polonium"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What element did Marie Curie name after her home country?\nAnswer:"
+                }
+            ],
+            "pred": "Polonium",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0062",
+        "question": "Who wrote the Communist Manifesto?",
+        "golden_answers": [
+            "Karl Marx",
+            "Marx and Engels",
+            "Karl Marx and Friedrich Engels"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: Who wrote the Communist Manifesto?\nAnswer:"
+                }
+            ],
+            "pred": "Karl Marx and Friedrich Engels wrote the Communist Manifesto.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.7692307692307693,
+                "acc": 1.0,
+                "precision": 0.625,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0063",
+        "question": "What country did Christopher Columbus sail for when he reached the Americas?",
+        "golden_answers": [
+            "Spain"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What country did Christopher Columbus sail for when he reached the Americas?\nAnswer:"
+                }
+            ],
+            "pred": "Spain",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0064",
+        "question": "Who wrote the play Romeo and Juliet?",
+        "golden_answers": [
+            "William Shakespeare",
+            "Shakespeare"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: Who wrote the play Romeo and Juliet?\nAnswer:"
+                }
+            ],
+            "pred": "William Shakespeare wrote the play Romeo and Juliet.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.4444444444444445,
+                "acc": 1.0,
+                "precision": 0.2857142857142857,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0065",
+        "question": "What ocean does the Amazon River empty into?",
+        "golden_answers": [
+            "Atlantic Ocean",
+            "Atlantic"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What ocean does the Amazon River empty into?\nAnswer:"
+                }
+            ],
+            "pred": "The Atlantic Ocean.",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0066",
+        "question": "What is the title of J.R.R. Tolkien's most famous trilogy?",
+        "golden_answers": [
+            "The Lord of the Rings"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the title of J.R.R. Tolkien's most famous trilogy?\nAnswer:"
+                }
+            ],
+            "pred": "The Lord of the Rings Trilogy",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.8571428571428571,
+                "acc": 1.0,
+                "precision": 0.75,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0067",
+        "question": "What language is spoken in the country where the headquarters of Interpol is located?",
+        "golden_answers": [
+            "French"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What language is spoken in the country where the headquarters of Interpol is located?\nAnswer:"
+                }
+            ],
+            "pred": "English",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0068",
+        "question": "What is the longest river in the world?",
+        "golden_answers": [
+            "Nile",
+            "Nile River"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the longest river in the world?\nAnswer:"
+                }
+            ],
+            "pred": "The longest river in the world is the Nile River.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.4444444444444445,
+                "acc": 1.0,
+                "precision": 0.2857142857142857,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0069",
+        "question": "Who is the founder of Tesla and SpaceX?",
+        "golden_answers": [
+            "Elon Musk"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: Who is the founder of Tesla and SpaceX?\nAnswer:"
+                }
+            ],
+            "pred": "The founder of both Tesla and SpaceX is Elon Musk.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.3636363636363636,
+                "acc": 1.0,
+                "precision": 0.2222222222222222,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0070",
+        "question": "What is the capital of the country that won the most medals at the 2020 Olympics?",
+        "golden_answers": [
+            "Washington D.C.",
+            "Washington DC"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the capital of the country that won the most medals at the 2020 Olympics?\nAnswer:"
+                }
+            ],
+            "pred": "Japan",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "synth_0071",
+        "question": "What gas makes up most of Earth's atmosphere?",
+        "golden_answers": [
+            "Nitrogen"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What gas makes up most of Earth's atmosphere?\nAnswer:"
+                }
+            ],
+            "pred": "Nitrogen",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0072",
+        "question": "What fruit is used to make wine?",
+        "golden_answers": [
+            "Grapes"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What fruit is used to make wine?\nAnswer:"
+                }
+            ],
+            "pred": "Fruits commonly used to make wine include grapes.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.2222222222222222,
+                "acc": 1.0,
+                "precision": 0.125,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0073",
+        "question": "Which US president abolished slavery?",
+        "golden_answers": [
+            "Abraham Lincoln",
+            "Lincoln"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: Which US president abolished slavery?\nAnswer:"
+                }
+            ],
+            "pred": "Abraham Lincoln abolished slavery through the Emancipation Proclamation and later with the 13th Amendment to the U.S. Constitution.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.23529411764705882,
+                "acc": 1.0,
+                "precision": 0.13333333333333333,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0074",
+        "question": "Who was the first person to win two Nobel Prizes?",
+        "golden_answers": [
+            "Marie Curie"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: Who was the first person to win two Nobel Prizes?\nAnswer:"
+                }
+            ],
+            "pred": "Linus Carlsson (known for his work in cell biology) and Frederick Sanger are sometimes cited as potential candidates, but not universally accepted. Historically, Marie Curie is widely recognized as the first person to win two Nobel Prizes.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.10526315789473684,
+                "acc": 1.0,
+                "precision": 0.05555555555555555,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0075",
+        "question": "What planet is known as the Red Planet?",
+        "golden_answers": [
+            "Mars"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What planet is known as the Red Planet?\nAnswer:"
+                }
+            ],
+            "pred": "Mars",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0076",
+        "question": "What is the capital of the country where the Eiffel Tower is located?",
+        "golden_answers": [
+            "Paris"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the capital of the country where the Eiffel Tower is located?\nAnswer:"
+                }
+            ],
+            "pred": "Paris",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0077",
+        "question": "What is the smallest country in the world?",
+        "golden_answers": [
+            "Vatican City",
+            "Vatican"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the smallest country in the world?\nAnswer:"
+                }
+            ],
+            "pred": "Vatican City",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0078",
+        "question": "What ocean would you cross to travel from London to New York?",
+        "golden_answers": [
+            "Atlantic Ocean",
+            "Atlantic"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What ocean would you cross to travel from London to New York?\nAnswer:"
+                }
+            ],
+            "pred": "Atlantic Ocean",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0079",
+        "question": "What Shakespeare play features the line 'To be or not to be'?",
+        "golden_answers": [
+            "Hamlet"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What Shakespeare play features the line 'To be or not to be'?\nAnswer:"
+                }
+            ],
+            "pred": "Hamlet",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0080",
+        "question": "What is the deepest lake in the world?",
+        "golden_answers": [
+            "Lake Baikal",
+            "Baikal"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the deepest lake in the world?\nAnswer:"
+                }
+            ],
+            "pred": "Lake Baikal in Russia",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.6666666666666666,
+                "acc": 1.0,
+                "precision": 0.5,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0081",
+        "question": "What is the best-selling book of all time?",
+        "golden_answers": [
+            "The Bible",
+            "Bible"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the best-selling book of all time?\nAnswer:"
+                }
+            ],
+            "pred": "The best-selling book of all time is said to be the Bible.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.18181818181818182,
+                "acc": 1.0,
+                "precision": 0.1,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0082",
+        "question": "What is the official language of the country that invented the printing press?",
+        "golden_answers": [
+            "German"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the official language of the country that invented the printing press?\nAnswer:"
+                }
+            ],
+            "pred": "The official language of the country that invented the printing press (Germany) is German.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.16666666666666669,
+                "acc": 1.0,
+                "precision": 0.09090909090909091,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0083",
+        "question": "What is the national dish of Spain?",
+        "golden_answers": [
+            "Paella"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the national dish of Spain?\nAnswer:"
+                }
+            ],
+            "pred": "Paella",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0084",
+        "question": "What scientist proposed the heliocentric model of the solar system?",
+        "golden_answers": [
+            "Copernicus",
+            "Nicolaus Copernicus"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What scientist proposed the heliocentric model of the solar system?\nAnswer:"
+                }
+            ],
+            "pred": "Nicolaus Copernicus proposed the heliocentric model of the solar system.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.4,
+                "acc": 1.0,
+                "precision": 0.25,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0085",
+        "question": "In what country was the company Samsung founded?",
+        "golden_answers": [
+            "South Korea"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: In what country was the company Samsung founded?\nAnswer:"
+                }
+            ],
+            "pred": "South Korea",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0086",
+        "question": "What river flows through the capital of Australia?",
+        "golden_answers": [
+            "Molonglo River",
+            "Molonglo"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What river flows through the capital of Australia?\nAnswer:"
+                }
+            ],
+            "pred": "Australia's capital Canberra does not have a river flowing entirely through it. However, one of its significant rivers is the Molonglo River, which runs near its southeastern edge.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.14285714285714288,
+                "acc": 1.0,
+                "precision": 0.07692307692307693,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0087",
+        "question": "What is the most widely used programming language?",
+        "golden_answers": [
+            "Python",
+            "JavaScript"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the most widely used programming language?\nAnswer:"
+                }
+            ],
+            "pred": "The most widely used programming language varies depending on context (web development, mobile app development, etc.), but Java and JavaScript are often mentioned. In general-purpose computing, C or Python might be considered due to their widespread use across different applications.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.05,
+                "acc": 1.0,
+                "precision": 0.02564102564102564,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0088",
+        "question": "What is the national sport of Japan?",
+        "golden_answers": [
+            "Sumo",
+            "Sumo wrestling"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the national sport of Japan?\nAnswer:"
+                }
+            ],
+            "pred": "Sumo wrestling",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0089",
+        "question": "What year did the first humans land on the Moon?",
+        "golden_answers": [
+            "1969"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What year did the first humans land on the Moon?\nAnswer:"
+                }
+            ],
+            "pred": "1969",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0090",
+        "question": "What organ in the human body produces insulin?",
+        "golden_answers": [
+            "Pancreas"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What organ in the human body produces insulin?\nAnswer:"
+                }
+            ],
+            "pred": "Pancreas",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0091",
+        "question": "What country is the company that makes Nutella headquartered in?",
+        "golden_answers": [
+            "Italy"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What country is the company that makes Nutella headquartered in?\nAnswer:"
+                }
+            ],
+            "pred": "Italy",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0092",
+        "question": "What is the most populous country in the world?",
+        "golden_answers": [
+            "India",
+            "China"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the most populous country in the world?\nAnswer:"
+                }
+            ],
+            "pred": "China",
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0093",
+        "question": "What is the largest city in the country where the Colosseum is located?",
+        "golden_answers": [
+            "Rome"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the largest city in the country where the Colosseum is located?\nAnswer:"
+                }
+            ],
+            "pred": "The largest city in Italy, where the Colosseum is located, is Rome.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.18181818181818182,
+                "acc": 1.0,
+                "precision": 0.1,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0094",
+        "question": "Who composed the Four Seasons?",
+        "golden_answers": [
+            "Antonio Vivaldi",
+            "Vivaldi"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: Who composed the Four Seasons?\nAnswer:"
+                }
+            ],
+            "pred": "Antonio Lucio Coccheri, better known by his pseudonym Antonio Lucano (1567-1632) is traditionally credited with composing the Four Seasons. However, attributing any specific pieces as \"Four Seasons\" directly to him is debated among scholars. More contemporary associations often link these works to Antonio Lucano without conclusive evidence. Modern consensus tends to place lesser emphasis on attributing them exclusively to this composer.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.03225806451612903,
+                "acc": 0.0,
+                "precision": 0.016666666666666666,
+                "recall": 0.5
+            }
+        }
+    },
+    {
+        "id": "synth_0095",
+        "question": "What company created the Android operating system?",
+        "golden_answers": [
+            "Google"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What company created the Android operating system?\nAnswer:"
+                }
+            ],
+            "pred": "Google created the Android operating system.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.33333333333333337,
+                "acc": 1.0,
+                "precision": 0.2,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0096",
+        "question": "What is the currency of the country where the Acropolis is located?",
+        "golden_answers": [
+            "Euro"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the currency of the country where the Acropolis is located?\nAnswer:"
+                }
+            ],
+            "pred": "The currency of the country where the Acropolis is located (Greece) is the Euro.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.18181818181818182,
+                "acc": 1.0,
+                "precision": 0.1,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0097",
+        "question": "How long is a marathon in kilometers (approx)?",
+        "golden_answers": [
+            "42",
+            "42.195",
+            "42 km"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: How long is a marathon in kilometers (approx)?\nAnswer:"
+                }
+            ],
+            "pred": "A marathon is approximately 42.195 kilometers long.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.2857142857142857,
+                "acc": 1.0,
+                "precision": 0.16666666666666666,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0098",
+        "question": "What is the largest ocean on Earth?",
+        "golden_answers": [
+            "Pacific Ocean",
+            "Pacific"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What is the largest ocean on Earth?\nAnswer:"
+                }
+            ],
+            "pred": "The largest ocean on Earth is the Pacific Ocean.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.4444444444444445,
+                "acc": 1.0,
+                "precision": 0.2857142857142857,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "synth_0099",
+        "question": "What country is Gouda cheese originally from?",
+        "golden_answers": [
+            "Netherlands",
+            "Holland"
+        ],
+        "output": {
+            "prompt": [
+                {
+                    "role": "system",
+                    "content": "Answer the question based on your own knowledge. Give a short, direct answer."
+                },
+                {
+                    "role": "user",
+                    "content": "Question: What country is Gouda cheese originally from?\nAnswer:"
+                }
+            ],
+            "pred": "Gouda cheese originated from the Netherlands.",
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.33333333333333337,
+                "acc": 1.0,
+                "precision": 0.2,
+                "recall": 1.0
+            }
+        }
+    }
+]

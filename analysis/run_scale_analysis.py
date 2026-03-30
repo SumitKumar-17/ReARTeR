@@ -22,9 +22,9 @@ os.makedirs(RESULTS_DIR, exist_ok=True)
 def make_config(dataset_name, corpus_name='trivia'):
     """Build config dict for given dataset."""
     corpus_dir = os.path.join(ANALYSIS_DIR, 'corpus')
-    if corpus_name == 'trivia':
-        index_path  = os.path.join(corpus_dir, 'trivia_bm25_index')
-        corpus_path = os.path.join(corpus_dir, 'trivia_corpus.jsonl')
+    if corpus_name == 'trivia' or corpus_name == 'synth':
+        index_path  = os.path.join(corpus_dir, 'synth_bm25_index')
+        corpus_path = os.path.join(corpus_dir, 'synth_corpus.jsonl')
     else:
         index_path  = os.path.join(corpus_dir, 'bm25_index')
         corpus_path = os.path.join(corpus_dir, 'mini_corpus.jsonl')
@@ -203,7 +203,7 @@ def main():
     args = parser.parse_args()
 
     scale = args.scale
-    dataset_name = f'trivia_{scale}'
+    dataset_name = f'synth_{scale}' if args.corpus == 'synth' else f'trivia_{scale}'
     corpus_name  = args.corpus
 
     print(f'\n{"="*60}')

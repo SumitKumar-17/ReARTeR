@@ -1,0 +1,300 @@
+{"id": "synth_0000", "question": "What sport is played at Wimbledon?", "golden_answers": ["Tennis"]}
+{"id": "synth_0001", "question": "What is the official language of the most populous country in South America?", "golden_answers": ["Portuguese"]}
+{"id": "synth_0002", "question": "What ocean borders the country that contains the Amazon River?", "golden_answers": ["Atlantic Ocean", "Atlantic"]}
+{"id": "synth_0003", "question": "What country did Ludwig van Beethoven come from?", "golden_answers": ["Germany"]}
+{"id": "synth_0004", "question": "What country is home to the most volcanoes?", "golden_answers": ["Indonesia"]}
+{"id": "synth_0005", "question": "What country was the inventor of the telephone born in?", "golden_answers": ["Scotland"]}
+{"id": "synth_0006", "question": "Who wrote Don Quixote?", "golden_answers": ["Miguel de Cervantes", "Cervantes"]}
+{"id": "synth_0007", "question": "What country invented the game of chess?", "golden_answers": ["India"]}
+{"id": "synth_0008", "question": "In what year was Facebook founded?", "golden_answers": ["2004"]}
+{"id": "synth_0009", "question": "What is the speed of light in km/s (approximately)?", "golden_answers": ["300000", "299792"]}
+{"id": "synth_0010", "question": "In what city was the United Nations founded?", "golden_answers": ["San Francisco"]}
+{"id": "synth_0011", "question": "What does the acronym HTML stand for?", "golden_answers": ["HyperText Markup Language"]}
+{"id": "synth_0012", "question": "Who was the first President of the United States?", "golden_answers": ["George Washington"]}
+{"id": "synth_0013", "question": "In what year did World War II end?", "golden_answers": ["1945"]}
+{"id": "synth_0014", "question": "What country has won the most Olympic gold medals overall?", "golden_answers": ["United States", "USA"]}
+{"id": "synth_0015", "question": "Who painted the Sistine Chapel ceiling?", "golden_answers": ["Michelangelo"]}
+{"id": "synth_0016", "question": "How many players are on a basketball team on the court at one time?", "golden_answers": ["5", "five"]}
+{"id": "synth_0017", "question": "What country produces the most coffee in the world?", "golden_answers": ["Brazil"]}
+{"id": "synth_0018", "question": "What novel features the character Atticus Finch?", "golden_answers": ["To Kill a Mockingbird"]}
+{"id": "synth_0019", "question": "What artist cut off his own ear?", "golden_answers": ["Vincent van Gogh", "Van Gogh"]}
+{"id": "synth_0020", "question": "Who wrote the novel 1984?", "golden_answers": ["George Orwell", "Orwell"]}
+{"id": "synth_0021", "question": "Who painted the Mona Lisa?", "golden_answers": ["Leonardo da Vinci", "Leonardo"]}
+{"id": "synth_0022", "question": "What type of pasta is shaped like small rice grains?", "golden_answers": ["Orzo", "Risoni"]}
+{"id": "synth_0023", "question": "What country does sushi originate from?", "golden_answers": ["Japan"]}
+{"id": "synth_0024", "question": "What company makes the PlayStation gaming console?", "golden_answers": ["Sony"]}
+{"id": "synth_0025", "question": "What country is known as the birthplace of pizza?", "golden_answers": ["Italy"]}
+{"id": "synth_0026", "question": "What company did Steve Jobs co-found?", "golden_answers": ["Apple", "Apple Inc."]}
+{"id": "synth_0027", "question": "What river forms part of the border between the USA and Mexico?", "golden_answers": ["Rio Grande", "Rio Bravo"]}
+{"id": "synth_0028", "question": "Who invented the World Wide Web?", "golden_answers": ["Tim Berners-Lee", "Timothy Berners-Lee"]}
+{"id": "synth_0029", "question": "What was the name of the ship that sank after hitting an iceberg in 1912?", "golden_answers": ["Titanic", "RMS Titanic"]}
+{"id": "synth_0030", "question": "Which tennis player has won the most Grand Slam titles (male)?", "golden_answers": ["Novak Djokovic", "Djokovic"]}
+{"id": "synth_0031", "question": "What empire built the Colosseum?", "golden_answers": ["Roman Empire", "Rome"]}
+{"id": "synth_0032", "question": "In what country is the ancient city of Machu Picchu located?", "golden_answers": ["Peru"]}
+{"id": "synth_0033", "question": "What is the maximum score in a single game of ten-pin bowling?", "golden_answers": ["300"]}
+{"id": "synth_0034", "question": "What does AI stand for?", "golden_answers": ["Artificial Intelligence"]}
+{"id": "synth_0035", "question": "What country has the most natural lakes?", "golden_answers": ["Canada"]}
+{"id": "synth_0036", "question": "What does CPU stand for?", "golden_answers": ["Central Processing Unit"]}
+{"id": "synth_0037", "question": "What country is Mount Kilimanjaro located in?", "golden_answers": ["Tanzania"]}
+{"id": "synth_0038", "question": "Who was the leader of Nazi Germany during World War II?", "golden_answers": ["Adolf Hitler", "Hitler"]}
+{"id": "synth_0039", "question": "What desert is the largest hot desert?", "golden_answers": ["Sahara", "Sahara Desert"]}
+{"id": "synth_0040", "question": "What country won the 2018 FIFA World Cup?", "golden_answers": ["France"]}
+{"id": "synth_0041", "question": "What is the highest waterfall in the world?", "golden_answers": ["Angel Falls"]}
+{"id": "synth_0042", "question": "What revolution began in France in 1789?", "golden_answers": ["French Revolution"]}
+{"id": "synth_0043", "question": "What is the name of the fictional detective created by Arthur Conan Doyle?", "golden_answers": ["Sherlock Holmes", "Holmes"]}
+{"id": "synth_0044", "question": "Who was the president of the USA when the first iPhone was released?", "golden_answers": ["George W. Bush", "Bush"]}
+{"id": "synth_0045", "question": "What is the national animal of Australia?", "golden_answers": ["Red Kangaroo", "Kangaroo"]}
+{"id": "synth_0046", "question": "In what city were the first modern Olympic Games held?", "golden_answers": ["Athens"]}
+{"id": "synth_0047", "question": "In what year did the Soviet Union dissolve?", "golden_answers": ["1991"]}
+{"id": "synth_0048", "question": "In what year was the first iPhone released?", "golden_answers": ["2007"]}
+{"id": "synth_0049", "question": "What ancient wonder was located in Alexandria, Egypt?", "golden_answers": ["Library of Alexandria", "Lighthouse of Alexandria", "Great Library"]}
+{"id": "synth_0050", "question": "What year did the Berlin Wall fall?", "golden_answers": ["1989"]}
+{"id": "synth_0051", "question": "What is the atomic number of the element whose symbol is Au?", "golden_answers": ["79"]}
+{"id": "synth_0052", "question": "What year was Google founded?", "golden_answers": ["1998"]}
+{"id": "synth_0053", "question": "What sea lies to the north of the continent where the Sahara Desert is?", "golden_answers": ["Mediterranean Sea", "Mediterranean"]}
+{"id": "synth_0054", "question": "What is the chemical symbol for water?", "golden_answers": ["H2O"]}
+{"id": "synth_0055", "question": "What is the capital of the country with the longest coastline?", "golden_answers": ["Ottawa"]}
+{"id": "synth_0056", "question": "Who was the first female Prime Minister of the United Kingdom?", "golden_answers": ["Margaret Thatcher", "Thatcher"]}
+{"id": "synth_0057", "question": "What country is famous for inventing chocolate?", "golden_answers": ["Switzerland", "Belgium", "Mexico"]}
+{"id": "synth_0058", "question": "What is the name of Harry Potter's school?", "golden_answers": ["Hogwarts", "Hogwarts School of Witchcraft and Wizardry"]}
+{"id": "synth_0059", "question": "What mountain range runs through the country whose capital is Madrid?", "golden_answers": ["Pyrenees", "Sierra Nevada"]}
+{"id": "synth_0060", "question": "Who wrote the novel Pride and Prejudice?", "golden_answers": ["Jane Austen", "Austen"]}
+{"id": "synth_0061", "question": "What element did Marie Curie name after her home country?", "golden_answers": ["Polonium"]}
+{"id": "synth_0062", "question": "Who wrote the Communist Manifesto?", "golden_answers": ["Karl Marx", "Marx and Engels", "Karl Marx and Friedrich Engels"]}
+{"id": "synth_0063", "question": "What country did Christopher Columbus sail for when he reached the Americas?", "golden_answers": ["Spain"]}
+{"id": "synth_0064", "question": "Who wrote the play Romeo and Juliet?", "golden_answers": ["William Shakespeare", "Shakespeare"]}
+{"id": "synth_0065", "question": "What ocean does the Amazon River empty into?", "golden_answers": ["Atlantic Ocean", "Atlantic"]}
+{"id": "synth_0066", "question": "What is the title of J.R.R. Tolkien's most famous trilogy?", "golden_answers": ["The Lord of the Rings"]}
+{"id": "synth_0067", "question": "What language is spoken in the country where the headquarters of Interpol is located?", "golden_answers": ["French"]}
+{"id": "synth_0068", "question": "What is the longest river in the world?", "golden_answers": ["Nile", "Nile River"]}
+{"id": "synth_0069", "question": "Who is the founder of Tesla and SpaceX?", "golden_answers": ["Elon Musk"]}
+{"id": "synth_0070", "question": "What is the capital of the country that won the most medals at the 2020 Olympics?", "golden_answers": ["Washington D.C.", "Washington DC"]}
+{"id": "synth_0071", "question": "What gas makes up most of Earth's atmosphere?", "golden_answers": ["Nitrogen"]}
+{"id": "synth_0072", "question": "What fruit is used to make wine?", "golden_answers": ["Grapes"]}
+{"id": "synth_0073", "question": "Which US president abolished slavery?", "golden_answers": ["Abraham Lincoln", "Lincoln"]}
+{"id": "synth_0074", "question": "Who was the first person to win two Nobel Prizes?", "golden_answers": ["Marie Curie"]}
+{"id": "synth_0075", "question": "What planet is known as the Red Planet?", "golden_answers": ["Mars"]}
+{"id": "synth_0076", "question": "What is the capital of the country where the Eiffel Tower is located?", "golden_answers": ["Paris"]}
+{"id": "synth_0077", "question": "What is the smallest country in the world?", "golden_answers": ["Vatican City", "Vatican"]}
+{"id": "synth_0078", "question": "What ocean would you cross to travel from London to New York?", "golden_answers": ["Atlantic Ocean", "Atlantic"]}
+{"id": "synth_0079", "question": "What Shakespeare play features the line 'To be or not to be'?", "golden_answers": ["Hamlet"]}
+{"id": "synth_0080", "question": "What is the deepest lake in the world?", "golden_answers": ["Lake Baikal", "Baikal"]}
+{"id": "synth_0081", "question": "What is the best-selling book of all time?", "golden_answers": ["The Bible", "Bible"]}
+{"id": "synth_0082", "question": "What is the official language of the country that invented the printing press?", "golden_answers": ["German"]}
+{"id": "synth_0083", "question": "What is the national dish of Spain?", "golden_answers": ["Paella"]}
+{"id": "synth_0084", "question": "What scientist proposed the heliocentric model of the solar system?", "golden_answers": ["Copernicus", "Nicolaus Copernicus"]}
+{"id": "synth_0085", "question": "In what country was the company Samsung founded?", "golden_answers": ["South Korea"]}
+{"id": "synth_0086", "question": "What river flows through the capital of Australia?", "golden_answers": ["Molonglo River", "Molonglo"]}
+{"id": "synth_0087", "question": "What is the most widely used programming language?", "golden_answers": ["Python", "JavaScript"]}
+{"id": "synth_0088", "question": "What is the national sport of Japan?", "golden_answers": ["Sumo", "Sumo wrestling"]}
+{"id": "synth_0089", "question": "What year did the first humans land on the Moon?", "golden_answers": ["1969"]}
+{"id": "synth_0090", "question": "What organ in the human body produces insulin?", "golden_answers": ["Pancreas"]}
+{"id": "synth_0091", "question": "What country is the company that makes Nutella headquartered in?", "golden_answers": ["Italy"]}
+{"id": "synth_0092", "question": "What is the most populous country in the world?", "golden_answers": ["India", "China"]}
+{"id": "synth_0093", "question": "What is the largest city in the country where the Colosseum is located?", "golden_answers": ["Rome"]}
+{"id": "synth_0094", "question": "Who composed the Four Seasons?", "golden_answers": ["Antonio Vivaldi", "Vivaldi"]}
+{"id": "synth_0095", "question": "What company created the Android operating system?", "golden_answers": ["Google"]}
+{"id": "synth_0096", "question": "What is the currency of the country where the Acropolis is located?", "golden_answers": ["Euro"]}
+{"id": "synth_0097", "question": "How long is a marathon in kilometers (approx)?", "golden_answers": ["42", "42.195", "42 km"]}
+{"id": "synth_0098", "question": "What is the largest ocean on Earth?", "golden_answers": ["Pacific Ocean", "Pacific"]}
+{"id": "synth_0099", "question": "What country is Gouda cheese originally from?", "golden_answers": ["Netherlands", "Holland"]}
+{"id": "synth_0100", "question": "What is the tallest mountain in Africa?", "golden_answers": ["Kilimanjaro", "Mount Kilimanjaro"]}
+{"id": "synth_0101", "question": "What is the largest country by area?", "golden_answers": ["Russia"]}
+{"id": "synth_0102", "question": "What university did Albert Einstein work at when he published his theory of relativity?", "golden_answers": ["University of Bern", "Bern"]}
+{"id": "synth_0103", "question": "Who developed the theory of evolution by natural selection?", "golden_answers": ["Charles Darwin", "Darwin"]}
+{"id": "synth_0104", "question": "What war ended with the Treaty of Versailles?", "golden_answers": ["World War I", "World War 1", "WWI"]}
+{"id": "synth_0105", "question": "What country was Nelson Mandela the president of?", "golden_answers": ["South Africa"]}
+{"id": "synth_0106", "question": "What is the currency of the country where the headquarters of the United Nations is located?", "golden_answers": ["US Dollar", "Dollar"]}
+{"id": "synth_0107", "question": "What river flows through the city that is the capital of Austria?", "golden_answers": ["Danube", "Danube River"]}
+{"id": "synth_0108", "question": "What country has the most pyramids in the world?", "golden_answers": ["Sudan", "Egypt"]}
+{"id": "synth_0109", "question": "What is the main ingredient in guacamole?", "golden_answers": ["Avocado"]}
+{"id": "synth_0110", "question": "What sport is played at Wimbledon?", "golden_answers": ["Tennis"]}
+{"id": "synth_0111", "question": "What is the official language of the most populous country in South America?", "golden_answers": ["Portuguese"]}
+{"id": "synth_0112", "question": "What ocean borders the country that contains the Amazon River?", "golden_answers": ["Atlantic Ocean", "Atlantic"]}
+{"id": "synth_0113", "question": "What country did Ludwig van Beethoven come from?", "golden_answers": ["Germany"]}
+{"id": "synth_0114", "question": "What country is home to the most volcanoes?", "golden_answers": ["Indonesia"]}
+{"id": "synth_0115", "question": "What country was the inventor of the telephone born in?", "golden_answers": ["Scotland"]}
+{"id": "synth_0116", "question": "Who wrote Don Quixote?", "golden_answers": ["Miguel de Cervantes", "Cervantes"]}
+{"id": "synth_0117", "question": "What country invented the game of chess?", "golden_answers": ["India"]}
+{"id": "synth_0118", "question": "In what year was Facebook founded?", "golden_answers": ["2004"]}
+{"id": "synth_0119", "question": "What is the speed of light in km/s (approximately)?", "golden_answers": ["300000", "299792"]}
+{"id": "synth_0120", "question": "In what city was the United Nations founded?", "golden_answers": ["San Francisco"]}
+{"id": "synth_0121", "question": "What does the acronym HTML stand for?", "golden_answers": ["HyperText Markup Language"]}
+{"id": "synth_0122", "question": "Who was the first President of the United States?", "golden_answers": ["George Washington"]}
+{"id": "synth_0123", "question": "In what year did World War II end?", "golden_answers": ["1945"]}
+{"id": "synth_0124", "question": "What country has won the most Olympic gold medals overall?", "golden_answers": ["United States", "USA"]}
+{"id": "synth_0125", "question": "Who painted the Sistine Chapel ceiling?", "golden_answers": ["Michelangelo"]}
+{"id": "synth_0126", "question": "How many players are on a basketball team on the court at one time?", "golden_answers": ["5", "five"]}
+{"id": "synth_0127", "question": "What country produces the most coffee in the world?", "golden_answers": ["Brazil"]}
+{"id": "synth_0128", "question": "What novel features the character Atticus Finch?", "golden_answers": ["To Kill a Mockingbird"]}
+{"id": "synth_0129", "question": "What artist cut off his own ear?", "golden_answers": ["Vincent van Gogh", "Van Gogh"]}
+{"id": "synth_0130", "question": "Who wrote the novel 1984?", "golden_answers": ["George Orwell", "Orwell"]}
+{"id": "synth_0131", "question": "Who painted the Mona Lisa?", "golden_answers": ["Leonardo da Vinci", "Leonardo"]}
+{"id": "synth_0132", "question": "What type of pasta is shaped like small rice grains?", "golden_answers": ["Orzo", "Risoni"]}
+{"id": "synth_0133", "question": "What country does sushi originate from?", "golden_answers": ["Japan"]}
+{"id": "synth_0134", "question": "What company makes the PlayStation gaming console?", "golden_answers": ["Sony"]}
+{"id": "synth_0135", "question": "What country is known as the birthplace of pizza?", "golden_answers": ["Italy"]}
+{"id": "synth_0136", "question": "What company did Steve Jobs co-found?", "golden_answers": ["Apple", "Apple Inc."]}
+{"id": "synth_0137", "question": "What river forms part of the border between the USA and Mexico?", "golden_answers": ["Rio Grande", "Rio Bravo"]}
+{"id": "synth_0138", "question": "Who invented the World Wide Web?", "golden_answers": ["Tim Berners-Lee", "Timothy Berners-Lee"]}
+{"id": "synth_0139", "question": "What was the name of the ship that sank after hitting an iceberg in 1912?", "golden_answers": ["Titanic", "RMS Titanic"]}
+{"id": "synth_0140", "question": "Which tennis player has won the most Grand Slam titles (male)?", "golden_answers": ["Novak Djokovic", "Djokovic"]}
+{"id": "synth_0141", "question": "What empire built the Colosseum?", "golden_answers": ["Roman Empire", "Rome"]}
+{"id": "synth_0142", "question": "In what country is the ancient city of Machu Picchu located?", "golden_answers": ["Peru"]}
+{"id": "synth_0143", "question": "What is the maximum score in a single game of ten-pin bowling?", "golden_answers": ["300"]}
+{"id": "synth_0144", "question": "What does AI stand for?", "golden_answers": ["Artificial Intelligence"]}
+{"id": "synth_0145", "question": "What country has the most natural lakes?", "golden_answers": ["Canada"]}
+{"id": "synth_0146", "question": "What does CPU stand for?", "golden_answers": ["Central Processing Unit"]}
+{"id": "synth_0147", "question": "What country is Mount Kilimanjaro located in?", "golden_answers": ["Tanzania"]}
+{"id": "synth_0148", "question": "Who was the leader of Nazi Germany during World War II?", "golden_answers": ["Adolf Hitler", "Hitler"]}
+{"id": "synth_0149", "question": "What desert is the largest hot desert?", "golden_answers": ["Sahara", "Sahara Desert"]}
+{"id": "synth_0150", "question": "What country won the 2018 FIFA World Cup?", "golden_answers": ["France"]}
+{"id": "synth_0151", "question": "What is the highest waterfall in the world?", "golden_answers": ["Angel Falls"]}
+{"id": "synth_0152", "question": "What revolution began in France in 1789?", "golden_answers": ["French Revolution"]}
+{"id": "synth_0153", "question": "What is the name of the fictional detective created by Arthur Conan Doyle?", "golden_answers": ["Sherlock Holmes", "Holmes"]}
+{"id": "synth_0154", "question": "Who was the president of the USA when the first iPhone was released?", "golden_answers": ["George W. Bush", "Bush"]}
+{"id": "synth_0155", "question": "What is the national animal of Australia?", "golden_answers": ["Red Kangaroo", "Kangaroo"]}
+{"id": "synth_0156", "question": "In what city were the first modern Olympic Games held?", "golden_answers": ["Athens"]}
+{"id": "synth_0157", "question": "In what year did the Soviet Union dissolve?", "golden_answers": ["1991"]}
+{"id": "synth_0158", "question": "In what year was the first iPhone released?", "golden_answers": ["2007"]}
+{"id": "synth_0159", "question": "What ancient wonder was located in Alexandria, Egypt?", "golden_answers": ["Library of Alexandria", "Lighthouse of Alexandria", "Great Library"]}
+{"id": "synth_0160", "question": "What year did the Berlin Wall fall?", "golden_answers": ["1989"]}
+{"id": "synth_0161", "question": "What is the atomic number of the element whose symbol is Au?", "golden_answers": ["79"]}
+{"id": "synth_0162", "question": "What year was Google founded?", "golden_answers": ["1998"]}
+{"id": "synth_0163", "question": "What sea lies to the north of the continent where the Sahara Desert is?", "golden_answers": ["Mediterranean Sea", "Mediterranean"]}
+{"id": "synth_0164", "question": "What is the chemical symbol for water?", "golden_answers": ["H2O"]}
+{"id": "synth_0165", "question": "What is the capital of the country with the longest coastline?", "golden_answers": ["Ottawa"]}
+{"id": "synth_0166", "question": "Who was the first female Prime Minister of the United Kingdom?", "golden_answers": ["Margaret Thatcher", "Thatcher"]}
+{"id": "synth_0167", "question": "What country is famous for inventing chocolate?", "golden_answers": ["Switzerland", "Belgium", "Mexico"]}
+{"id": "synth_0168", "question": "What is the name of Harry Potter's school?", "golden_answers": ["Hogwarts", "Hogwarts School of Witchcraft and Wizardry"]}
+{"id": "synth_0169", "question": "What mountain range runs through the country whose capital is Madrid?", "golden_answers": ["Pyrenees", "Sierra Nevada"]}
+{"id": "synth_0170", "question": "Who wrote the novel Pride and Prejudice?", "golden_answers": ["Jane Austen", "Austen"]}
+{"id": "synth_0171", "question": "What element did Marie Curie name after her home country?", "golden_answers": ["Polonium"]}
+{"id": "synth_0172", "question": "Who wrote the Communist Manifesto?", "golden_answers": ["Karl Marx", "Marx and Engels", "Karl Marx and Friedrich Engels"]}
+{"id": "synth_0173", "question": "What country did Christopher Columbus sail for when he reached the Americas?", "golden_answers": ["Spain"]}
+{"id": "synth_0174", "question": "Who wrote the play Romeo and Juliet?", "golden_answers": ["William Shakespeare", "Shakespeare"]}
+{"id": "synth_0175", "question": "What ocean does the Amazon River empty into?", "golden_answers": ["Atlantic Ocean", "Atlantic"]}
+{"id": "synth_0176", "question": "What is the title of J.R.R. Tolkien's most famous trilogy?", "golden_answers": ["The Lord of the Rings"]}
+{"id": "synth_0177", "question": "What language is spoken in the country where the headquarters of Interpol is located?", "golden_answers": ["French"]}
+{"id": "synth_0178", "question": "What is the longest river in the world?", "golden_answers": ["Nile", "Nile River"]}
+{"id": "synth_0179", "question": "Who is the founder of Tesla and SpaceX?", "golden_answers": ["Elon Musk"]}
+{"id": "synth_0180", "question": "What is the capital of the country that won the most medals at the 2020 Olympics?", "golden_answers": ["Washington D.C.", "Washington DC"]}
+{"id": "synth_0181", "question": "What gas makes up most of Earth's atmosphere?", "golden_answers": ["Nitrogen"]}
+{"id": "synth_0182", "question": "What fruit is used to make wine?", "golden_answers": ["Grapes"]}
+{"id": "synth_0183", "question": "Which US president abolished slavery?", "golden_answers": ["Abraham Lincoln", "Lincoln"]}
+{"id": "synth_0184", "question": "Who was the first person to win two Nobel Prizes?", "golden_answers": ["Marie Curie"]}
+{"id": "synth_0185", "question": "What planet is known as the Red Planet?", "golden_answers": ["Mars"]}
+{"id": "synth_0186", "question": "What is the capital of the country where the Eiffel Tower is located?", "golden_answers": ["Paris"]}
+{"id": "synth_0187", "question": "What is the smallest country in the world?", "golden_answers": ["Vatican City", "Vatican"]}
+{"id": "synth_0188", "question": "What ocean would you cross to travel from London to New York?", "golden_answers": ["Atlantic Ocean", "Atlantic"]}
+{"id": "synth_0189", "question": "What Shakespeare play features the line 'To be or not to be'?", "golden_answers": ["Hamlet"]}
+{"id": "synth_0190", "question": "What is the deepest lake in the world?", "golden_answers": ["Lake Baikal", "Baikal"]}
+{"id": "synth_0191", "question": "What is the best-selling book of all time?", "golden_answers": ["The Bible", "Bible"]}
+{"id": "synth_0192", "question": "What is the official language of the country that invented the printing press?", "golden_answers": ["German"]}
+{"id": "synth_0193", "question": "What is the national dish of Spain?", "golden_answers": ["Paella"]}
+{"id": "synth_0194", "question": "What scientist proposed the heliocentric model of the solar system?", "golden_answers": ["Copernicus", "Nicolaus Copernicus"]}
+{"id": "synth_0195", "question": "In what country was the company Samsung founded?", "golden_answers": ["South Korea"]}
+{"id": "synth_0196", "question": "What river flows through the capital of Australia?", "golden_answers": ["Molonglo River", "Molonglo"]}
+{"id": "synth_0197", "question": "What is the most widely used programming language?", "golden_answers": ["Python", "JavaScript"]}
+{"id": "synth_0198", "question": "What is the national sport of Japan?", "golden_answers": ["Sumo", "Sumo wrestling"]}
+{"id": "synth_0199", "question": "What year did the first humans land on the Moon?", "golden_answers": ["1969"]}
+{"id": "synth_0200", "question": "What organ in the human body produces insulin?", "golden_answers": ["Pancreas"]}
+{"id": "synth_0201", "question": "What country is the company that makes Nutella headquartered in?", "golden_answers": ["Italy"]}
+{"id": "synth_0202", "question": "What is the most populous country in the world?", "golden_answers": ["India", "China"]}
+{"id": "synth_0203", "question": "What is the largest city in the country where the Colosseum is located?", "golden_answers": ["Rome"]}
+{"id": "synth_0204", "question": "Who composed the Four Seasons?", "golden_answers": ["Antonio Vivaldi", "Vivaldi"]}
+{"id": "synth_0205", "question": "What company created the Android operating system?", "golden_answers": ["Google"]}
+{"id": "synth_0206", "question": "What is the currency of the country where the Acropolis is located?", "golden_answers": ["Euro"]}
+{"id": "synth_0207", "question": "How long is a marathon in kilometers (approx)?", "golden_answers": ["42", "42.195", "42 km"]}
+{"id": "synth_0208", "question": "What is the largest ocean on Earth?", "golden_answers": ["Pacific Ocean", "Pacific"]}
+{"id": "synth_0209", "question": "What country is Gouda cheese originally from?", "golden_answers": ["Netherlands", "Holland"]}
+{"id": "synth_0210", "question": "What is the tallest mountain in Africa?", "golden_answers": ["Kilimanjaro", "Mount Kilimanjaro"]}
+{"id": "synth_0211", "question": "What is the largest country by area?", "golden_answers": ["Russia"]}
+{"id": "synth_0212", "question": "What university did Albert Einstein work at when he published his theory of relativity?", "golden_answers": ["University of Bern", "Bern"]}
+{"id": "synth_0213", "question": "Who developed the theory of evolution by natural selection?", "golden_answers": ["Charles Darwin", "Darwin"]}
+{"id": "synth_0214", "question": "What war ended with the Treaty of Versailles?", "golden_answers": ["World War I", "World War 1", "WWI"]}
+{"id": "synth_0215", "question": "What country was Nelson Mandela the president of?", "golden_answers": ["South Africa"]}
+{"id": "synth_0216", "question": "What is the currency of the country where the headquarters of the United Nations is located?", "golden_answers": ["US Dollar", "Dollar"]}
+{"id": "synth_0217", "question": "What river flows through the city that is the capital of Austria?", "golden_answers": ["Danube", "Danube River"]}
+{"id": "synth_0218", "question": "What country has the most pyramids in the world?", "golden_answers": ["Sudan", "Egypt"]}
+{"id": "synth_0219", "question": "What is the main ingredient in guacamole?", "golden_answers": ["Avocado"]}
+{"id": "synth_0220", "question": "What sport is played at Wimbledon?", "golden_answers": ["Tennis"]}
+{"id": "synth_0221", "question": "What is the official language of the most populous country in South America?", "golden_answers": ["Portuguese"]}
+{"id": "synth_0222", "question": "What ocean borders the country that contains the Amazon River?", "golden_answers": ["Atlantic Ocean", "Atlantic"]}
+{"id": "synth_0223", "question": "What country did Ludwig van Beethoven come from?", "golden_answers": ["Germany"]}
+{"id": "synth_0224", "question": "What country is home to the most volcanoes?", "golden_answers": ["Indonesia"]}
+{"id": "synth_0225", "question": "What country was the inventor of the telephone born in?", "golden_answers": ["Scotland"]}
+{"id": "synth_0226", "question": "Who wrote Don Quixote?", "golden_answers": ["Miguel de Cervantes", "Cervantes"]}
+{"id": "synth_0227", "question": "What country invented the game of chess?", "golden_answers": ["India"]}
+{"id": "synth_0228", "question": "In what year was Facebook founded?", "golden_answers": ["2004"]}
+{"id": "synth_0229", "question": "What is the speed of light in km/s (approximately)?", "golden_answers": ["300000", "299792"]}
+{"id": "synth_0230", "question": "In what city was the United Nations founded?", "golden_answers": ["San Francisco"]}
+{"id": "synth_0231", "question": "What does the acronym HTML stand for?", "golden_answers": ["HyperText Markup Language"]}
+{"id": "synth_0232", "question": "Who was the first President of the United States?", "golden_answers": ["George Washington"]}
+{"id": "synth_0233", "question": "In what year did World War II end?", "golden_answers": ["1945"]}
+{"id": "synth_0234", "question": "What country has won the most Olympic gold medals overall?", "golden_answers": ["United States", "USA"]}
+{"id": "synth_0235", "question": "Who painted the Sistine Chapel ceiling?", "golden_answers": ["Michelangelo"]}
+{"id": "synth_0236", "question": "How many players are on a basketball team on the court at one time?", "golden_answers": ["5", "five"]}
+{"id": "synth_0237", "question": "What country produces the most coffee in the world?", "golden_answers": ["Brazil"]}
+{"id": "synth_0238", "question": "What novel features the character Atticus Finch?", "golden_answers": ["To Kill a Mockingbird"]}
+{"id": "synth_0239", "question": "What artist cut off his own ear?", "golden_answers": ["Vincent van Gogh", "Van Gogh"]}
+{"id": "synth_0240", "question": "Who wrote the novel 1984?", "golden_answers": ["George Orwell", "Orwell"]}
+{"id": "synth_0241", "question": "Who painted the Mona Lisa?", "golden_answers": ["Leonardo da Vinci", "Leonardo"]}
+{"id": "synth_0242", "question": "What type of pasta is shaped like small rice grains?", "golden_answers": ["Orzo", "Risoni"]}
+{"id": "synth_0243", "question": "What country does sushi originate from?", "golden_answers": ["Japan"]}
+{"id": "synth_0244", "question": "What company makes the PlayStation gaming console?", "golden_answers": ["Sony"]}
+{"id": "synth_0245", "question": "What country is known as the birthplace of pizza?", "golden_answers": ["Italy"]}
+{"id": "synth_0246", "question": "What company did Steve Jobs co-found?", "golden_answers": ["Apple", "Apple Inc."]}
+{"id": "synth_0247", "question": "What river forms part of the border between the USA and Mexico?", "golden_answers": ["Rio Grande", "Rio Bravo"]}
+{"id": "synth_0248", "question": "Who invented the World Wide Web?", "golden_answers": ["Tim Berners-Lee", "Timothy Berners-Lee"]}
+{"id": "synth_0249", "question": "What was the name of the ship that sank after hitting an iceberg in 1912?", "golden_answers": ["Titanic", "RMS Titanic"]}
+{"id": "synth_0250", "question": "Which tennis player has won the most Grand Slam titles (male)?", "golden_answers": ["Novak Djokovic", "Djokovic"]}
+{"id": "synth_0251", "question": "What empire built the Colosseum?", "golden_answers": ["Roman Empire", "Rome"]}
+{"id": "synth_0252", "question": "In what country is the ancient city of Machu Picchu located?", "golden_answers": ["Peru"]}
+{"id": "synth_0253", "question": "What is the maximum score in a single game of ten-pin bowling?", "golden_answers": ["300"]}
+{"id": "synth_0254", "question": "What does AI stand for?", "golden_answers": ["Artificial Intelligence"]}
+{"id": "synth_0255", "question": "What country has the most natural lakes?", "golden_answers": ["Canada"]}
+{"id": "synth_0256", "question": "What does CPU stand for?", "golden_answers": ["Central Processing Unit"]}
+{"id": "synth_0257", "question": "What country is Mount Kilimanjaro located in?", "golden_answers": ["Tanzania"]}
+{"id": "synth_0258", "question": "Who was the leader of Nazi Germany during World War II?", "golden_answers": ["Adolf Hitler", "Hitler"]}
+{"id": "synth_0259", "question": "What desert is the largest hot desert?", "golden_answers": ["Sahara", "Sahara Desert"]}
+{"id": "synth_0260", "question": "What country won the 2018 FIFA World Cup?", "golden_answers": ["France"]}
+{"id": "synth_0261", "question": "What is the highest waterfall in the world?", "golden_answers": ["Angel Falls"]}
+{"id": "synth_0262", "question": "What revolution began in France in 1789?", "golden_answers": ["French Revolution"]}
+{"id": "synth_0263", "question": "What is the name of the fictional detective created by Arthur Conan Doyle?", "golden_answers": ["Sherlock Holmes", "Holmes"]}
+{"id": "synth_0264", "question": "Who was the president of the USA when the first iPhone was released?", "golden_answers": ["George W. Bush", "Bush"]}
+{"id": "synth_0265", "question": "What is the national animal of Australia?", "golden_answers": ["Red Kangaroo", "Kangaroo"]}
+{"id": "synth_0266", "question": "In what city were the first modern Olympic Games held?", "golden_answers": ["Athens"]}
+{"id": "synth_0267", "question": "In what year did the Soviet Union dissolve?", "golden_answers": ["1991"]}
+{"id": "synth_0268", "question": "In what year was the first iPhone released?", "golden_answers": ["2007"]}
+{"id": "synth_0269", "question": "What ancient wonder was located in Alexandria, Egypt?", "golden_answers": ["Library of Alexandria", "Lighthouse of Alexandria", "Great Library"]}
+{"id": "synth_0270", "question": "What year did the Berlin Wall fall?", "golden_answers": ["1989"]}
+{"id": "synth_0271", "question": "What is the atomic number of the element whose symbol is Au?", "golden_answers": ["79"]}
+{"id": "synth_0272", "question": "What year was Google founded?", "golden_answers": ["1998"]}
+{"id": "synth_0273", "question": "What sea lies to the north of the continent where the Sahara Desert is?", "golden_answers": ["Mediterranean Sea", "Mediterranean"]}
+{"id": "synth_0274", "question": "What is the chemical symbol for water?", "golden_answers": ["H2O"]}
+{"id": "synth_0275", "question": "What is the capital of the country with the longest coastline?", "golden_answers": ["Ottawa"]}
+{"id": "synth_0276", "question": "Who was the first female Prime Minister of the United Kingdom?", "golden_answers": ["Margaret Thatcher", "Thatcher"]}
+{"id": "synth_0277", "question": "What country is famous for inventing chocolate?", "golden_answers": ["Switzerland", "Belgium", "Mexico"]}
+{"id": "synth_0278", "question": "What is the name of Harry Potter's school?", "golden_answers": ["Hogwarts", "Hogwarts School of Witchcraft and Wizardry"]}
+{"id": "synth_0279", "question": "What mountain range runs through the country whose capital is Madrid?", "golden_answers": ["Pyrenees", "Sierra Nevada"]}
+{"id": "synth_0280", "question": "Who wrote the novel Pride and Prejudice?", "golden_answers": ["Jane Austen", "Austen"]}
+{"id": "synth_0281", "question": "What element did Marie Curie name after her home country?", "golden_answers": ["Polonium"]}
+{"id": "synth_0282", "question": "Who wrote the Communist Manifesto?", "golden_answers": ["Karl Marx", "Marx and Engels", "Karl Marx and Friedrich Engels"]}
+{"id": "synth_0283", "question": "What country did Christopher Columbus sail for when he reached the Americas?", "golden_answers": ["Spain"]}
+{"id": "synth_0284", "question": "Who wrote the play Romeo and Juliet?", "golden_answers": ["William Shakespeare", "Shakespeare"]}
+{"id": "synth_0285", "question": "What ocean does the Amazon River empty into?", "golden_answers": ["Atlantic Ocean", "Atlantic"]}
+{"id": "synth_0286", "question": "What is the title of J.R.R. Tolkien's most famous trilogy?", "golden_answers": ["The Lord of the Rings"]}
+{"id": "synth_0287", "question": "What language is spoken in the country where the headquarters of Interpol is located?", "golden_answers": ["French"]}
+{"id": "synth_0288", "question": "What is the longest river in the world?", "golden_answers": ["Nile", "Nile River"]}
+{"id": "synth_0289", "question": "Who is the founder of Tesla and SpaceX?", "golden_answers": ["Elon Musk"]}
+{"id": "synth_0290", "question": "What is the capital of the country that won the most medals at the 2020 Olympics?", "golden_answers": ["Washington D.C.", "Washington DC"]}
+{"id": "synth_0291", "question": "What gas makes up most of Earth's atmosphere?", "golden_answers": ["Nitrogen"]}
+{"id": "synth_0292", "question": "What fruit is used to make wine?", "golden_answers": ["Grapes"]}
+{"id": "synth_0293", "question": "Which US president abolished slavery?", "golden_answers": ["Abraham Lincoln", "Lincoln"]}
+{"id": "synth_0294", "question": "Who was the first person to win two Nobel Prizes?", "golden_answers": ["Marie Curie"]}
+{"id": "synth_0295", "question": "What planet is known as the Red Planet?", "golden_answers": ["Mars"]}
+{"id": "synth_0296", "question": "What is the capital of the country where the Eiffel Tower is located?", "golden_answers": ["Paris"]}
+{"id": "synth_0297", "question": "What is the smallest country in the world?", "golden_answers": ["Vatican City", "Vatican"]}
+{"id": "synth_0298", "question": "What ocean would you cross to travel from London to New York?", "golden_answers": ["Atlantic Ocean", "Atlantic"]}
+{"id": "synth_0299", "question": "What Shakespeare play features the line 'To be or not to be'?", "golden_answers": ["Hamlet"]}
