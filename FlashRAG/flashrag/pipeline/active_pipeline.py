@@ -1115,7 +1115,7 @@ class ReasoningPipeline(BasicPipeline):
         reasoning_step = self.extract_reasoning_steps(accumulated_output)
         if reasoning_step == []:
             bad_gen = True
-        if hasattr(self, 'prm_score') and hasattr(self, 'critic_exp_model'):
+        if hasattr(self, 'prm') and hasattr(self, 'explaner'):  # Check actual model objects, not methods
             for idx, _ in enumerate(reasoning_step):
                 # prm
                 score = self.prm_score(question,"\n".join(reasoning_step[:idx]), reasoning_step[idx])

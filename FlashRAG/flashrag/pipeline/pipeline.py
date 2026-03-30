@@ -86,8 +86,6 @@ class SequentialPipeline(BasicPipeline):
 
     def run(self, dataset, do_eval=True, pred_process_fun=None):
         input_query = dataset.question
-        import pdb
-        pdb.set_trace()
         retrieval_results = self.retriever.batch_search(input_query)
         dataset.update_output("retrieval_result", retrieval_results)
 

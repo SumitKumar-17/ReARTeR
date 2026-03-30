@@ -160,10 +160,19 @@ class Dataset:
     def save(self, save_path):
         """Save the dataset into the original format."""
 
-        def convert_to_float(d):
-            return {k: (v.item() if isinstance(v, np.generic) else v) for k, v in d.items()}
+        def convert_to_serializable(obj):
+            """Recursively convert numpy types to Python native types."""
+            if isinstance(obj, np.generic):
+                return obj.item()
+            elif isinstance(obj, np.ndarray):
+                return obj.tolist()
+            elif isinstance(obj, dict):
+                return {k: convert_to_serializable(v) for k, v in obj.items()}
+            elif isinstance(obj, (list, tuple)):
+                return [convert_to_serializable(v) for v in obj]
+            return obj
 
-        save_data = [convert_to_float(item.to_dict()) for item in self.data]
+        save_data = [convert_to_serializable(item.to_dict()) for item in self.data]
 
         with open(save_path, "w") as f:
             json.dump(save_data, f, indent=4)

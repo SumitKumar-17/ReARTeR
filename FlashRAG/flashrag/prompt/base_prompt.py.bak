@@ -26,15 +26,7 @@ class PromptTemplate:
         else:
             self.is_chat = True
             self.enable_chat = True
-            try:
-                import tiktoken
-                self.tokenizer = tiktoken.encoding_for_model("gpt-4o-mini")
-            except Exception:
-                # Fallback when tiktoken BPE files cannot be downloaded (no internet)
-                class _SimpleTokenizer:
-                    def encode(self, text): return list(range(max(1, len(text) // 4)))
-                    def decode(self, ids): return ""
-                self.tokenizer = _SimpleTokenizer()
+            self.tokenizer = tiktoken.encoding_for_model("gpt-4o-mini")
 
         if len(system_prompt) == 0 and len(user_prompt) == 0:
             system_prompt = self.base_system_prompt
@@ -73,7 +65,7 @@ class PromptTemplate:
                 else:
                     print(f"The input text length is greater than the maximum length ({total_tokens + len(encoded_message)} > {self.max_input_len}) and has been truncated!")
                     remaining_tokens = self.max_input_len - total_tokens
-                    truncated_message = self.tokenizer.decode(encoded_message[:remaining_tokens])
+                    truncated_message = self.encoding.decode(encoded_message[:remaining_tokens])
                     message['content'] = truncated_message
                     truncated_messages.append(message)
                     break

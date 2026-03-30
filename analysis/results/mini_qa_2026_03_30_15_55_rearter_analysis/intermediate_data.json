@@ -1,0 +1,349 @@
+[
+    {
+        "id": "q001",
+        "question": "Who was the president of the United States when the Berlin Wall fell?",
+        "golden_answers": [
+            "George H. W. Bush",
+            "George Bush"
+        ],
+        "output": {
+            "pred": "The president of the United States when the Berlin Wall (Blockade) ended was Dwight D. Eisenhower, not Harry S. Truman. Harry S. Truman was president during the start and early period of the Berlin Blockade, but it ended in June 1949 under President Harry S. Truman's successor, Dwight D. Eisenhower.",
+            "reasoning_steps": [
+                "Follow up: When did the Berlin Blockade start?\nSearch: No.\nIntermediate answer: The Berlin Blockade started on June 24, 1948.\n",
+                "So the final answer is: The President of the United States when the Berlin Blockaded ended was Harry S. Truman.\n\nNote: It may not be necessary to provide additional search details as this answer can generally rely on common historical knowledge for further validation or context.",
+                "The president of the United States when the Berlin Wall (Blockade) ended was Dwight D. Eisenhower, not Harry S. Truman. Harry S. Truman was president during the start and early period of the Berlin Blockade, but it ended in June 1949 under President Harry S. Truman's successor, Dwight D. Eisenhower."
+            ],
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "q002",
+        "question": "What country is the city where Albert Einstein was born located in?",
+        "golden_answers": [
+            "Germany"
+        ],
+        "output": {
+            "pred": "The country where the city where Albert Einstein was born (Ulm) is located is Germany.",
+            "reasoning_steps": [
+                "Follow up: In which year was Albert Einstein born?\nSearch: No.\nIntermediate answer: Albert Einstein was born in March 1879.",
+                "Follow up: Where was Albert Einstein born?\nSearch: Yes.\nRetrieved documents:\nDoc1: Albert Einstein was born in Ulm, in the Kingdom of W\u00fcrttemberg in the German Empire, on 14 March 1879. He developed the theory of relativity and is one of the most influential physicists of the 20th century.\nDoc2: Ulm is a city in the federal state of Baden-W\u00fcrttemberg, Germany. It is famous as the birthplace of Albert Einstein and has one of the tallest church steeples in the world.\nDoc3: Germany is a country in Central Europe. It is a federal republic consisting of 16 states. Ulm, the birthplace of Albert Einstein, is located in the state of Baden-W\u00fcrttemberg in Germany.\n\nIntermediate answer:",
+                "So the final answer is: The city where Albert Einstein was born, Ulm, is located in Germany.",
+                "The country where the city where Albert Einstein was born (Ulm) is located is Germany."
+            ],
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.14285714285714288,
+                "acc": 1.0,
+                "precision": 0.07692307692307693,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "q003",
+        "question": "What ocean does the longest river in Africa empty into?",
+        "golden_answers": [
+            "Atlantic Ocean",
+            "the Atlantic Ocean"
+        ],
+        "output": {
+            "pred": "The Nile empties into the Mediterranean Sea. Therefore, the ocean the longest river in Africa (the Nile) empties into is the Mediterranean Sea.",
+            "reasoning_steps": [
+                "Follow up: Which river is considered the longest in Africa?\nSearch: Yes.\nRetrieved documents:\nDoc1: The Nile is a major north-flowing river in northeastern Africa, and is the longest river in Africa. The Nile flows northward through northeastern Africa and empties into the Mediterranean Sea at the Nile Delta in Egypt.\nDoc2: Africa's major rivers include the Nile (longest), Congo, Niger, and Zambezi. The Nile has historically been the most important river, supporting ancient Egyptian civilization. The Congo empties into the Atlantic Ocean.\nDoc3: The Godfather is a 1972 American crime film directed by Francis Ford Coppola, based on the 1969 novel of the same name by Mario Puzo. The film stars Marlon Brando and Al Pacino and is considered one of the greatest films ever made.\n\nIntermediate answer:The longest river in Africa is the Nile.\n",
+                "So the final answer is: The Nile.",
+                "The Nile empties into the Mediterranean Sea. Therefore, the ocean the longest river in Africa (the Nile) empties into is the Mediterranean Sea."
+            ],
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.10526315789473684,
+                "acc": 0.0,
+                "precision": 0.058823529411764705,
+                "recall": 0.5
+            }
+        }
+    },
+    {
+        "id": "q004",
+        "question": "What is the capital of the country where the Eiffel Tower is located?",
+        "golden_answers": [
+            "Paris"
+        ],
+        "output": {
+            "pred": "France",
+            "reasoning_steps": [
+                "Follow up: Which country does the Eiffel Tower belong to?\nSearch: Yes.\nRetrieved documents:\nDoc1: France is a country in Western Europe. Its capital is Paris, which is also the largest city. The official language is French. France is known for its art, culture, cuisine, and landmarks like the Eiffel Tower and Louvre.\nDoc2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It was constructed from 1887 to 1889 as the centerpiece of the 1889 World's Fair.\nDoc3: Paris is the capital and most populous city of France. Situated on the Seine River in northern France, it is home to many famous landmarks including the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral.\n\nIntermediate answer:The country where the Eiffel Tower is located is France.\n",
+                "So the final answer is: France.",
+                "France"
+            ],
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0,
+                "acc": 0.0,
+                "precision": 0,
+                "recall": 0
+            }
+        }
+    },
+    {
+        "id": "q005",
+        "question": "Who invented the telephone and what country was he born in?",
+        "golden_answers": [
+            "Alexander Graham Bell",
+            "Scotland"
+        ],
+        "output": {
+            "pred": "The inventor of the telephone was Alexander Graham Bell and he was born in Scotland. Alexander Graham Bell lived from March 3, 1847 to August 2, 1922.",
+            "reasoning_steps": [
+                "Follow up: What year did the inventor of the telephone live?\nSearch: No.\nIntermediate answer: The inventor of the telephone is Alexander Graham Bell, who was born in Scotland.\n\n",
+                "So the final answer is: The inventor of the telephone, Alexander Graham Bell, was born in Scotland. Alexander Graham Bell lived from March 3, 1847 to August 2, 1922.",
+                "The inventor of the telephone was Alexander Graham Bell and he was born in Scotland. Alexander Graham Bell lived from March 3, 1847 to August 2, 1922."
+            ],
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.21428571428571425,
+                "acc": 1.0,
+                "precision": 0.12,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "q006",
+        "question": "In what year did the company that makes the iPhone release their first personal computer?",
+        "golden_answers": [
+            "1976",
+            "1977"
+        ],
+        "output": {
+            "pred": "The first personal computer released by Apple Inc. was the Apple I, which was released in 1976.",
+            "reasoning_steps": [
+                "Follow up: What is the name of the company that makes the iPhone?\nSearch: No.\nIntermediate answer: The company that makes the iPhone is Apple Inc.",
+                "Follow up: When did Apple Inc. release their first personal computer?\nSearch: Yes.\nRetrieved documents:\nDoc1: The Apple I, released in 1976, was the first Apple computer product. It was designed and hand-built by Steve Wozniak. The Apple II, released in 1977, was the first mass-produced personal computer by Apple.\nDoc2: The iPhone is a line of smartphones made and marketed by Apple Inc. The first iPhone was introduced by Steve Jobs on January 9, 2007, and released on June 29, 2007.\nDoc3: Apple Inc. is an American multinational technology company that designs, develops, and sells consumer electronics, computer software, and online services. Apple was founded on April 1, 1976 by Steve Jobs, Steve Wozniak, and Ronald Wayne. The company introduced the iPhone in 2007.\n\nIntermediate answer:The first personal computer released by Apple Inc. was the Apple I, which was released in 1976.\n",
+                "So the final answer is: The first personal computer released by Apple Inc. was the Apple I, which was released in 1976.",
+                "The first personal computer released by Apple Inc. was the Apple I, which was released in 1976."
+            ],
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.125,
+                "acc": 1.0,
+                "precision": 0.06666666666666667,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "q007",
+        "question": "What language is spoken in the country that won the 2018 FIFA World Cup?",
+        "golden_answers": [
+            "French"
+        ],
+        "output": {
+            "pred": "French.",
+            "reasoning_steps": [
+                "Follow up: Which country won the 2018 FIFA World Cup?\nSearch: Yes.\nRetrieved documents:\nDoc1: The 2018 FIFA World Cup was an international football tournament held in Russia from June 14 to July 15, 2018. France won the championship by defeating Croatia 4-2 in the final, claiming their second World Cup title.\nDoc2: France is a country in Western Europe. Its capital is Paris, which is also the largest city. The official language is French. France is known for its art, culture, cuisine, and landmarks like the Eiffel Tower and Louvre.\nDoc3: Brazil is the largest country in both South America and Latin America. It is the largest country to have Portuguese as an official language. Brazil was colonized by Portugal from 1500 until its independence in 1822.\n\nIntermediate answer:The country that won the 2018 FIFA World Cup was France.",
+                "Follow up: What language is spoken in France?\nSearch: No.\nRetrieved documents:\nIntermediate answer:France's official language is French. \n\n",
+                "So the final answer is: French.",
+                "French."
+            ],
+            "metric_score": {
+                "em": 1.0,
+                "f1": 1.0,
+                "acc": 1.0,
+                "precision": 1.0,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "q008",
+        "question": "What is the currency of the country where Shakespeare was born?",
+        "golden_answers": [
+            "Pound sterling",
+            "British pound",
+            "pound"
+        ],
+        "output": {
+            "pred": "The currency used in England, where Shakespeare was born and lived, was the English pound sterling (GBP).",
+            "reasoning_steps": [
+                "Follow up: In which year was William Shakespeare born?\nSearch: No.\nIntermediate answer: William Shakespeare was born in 1564.\n",
+                "So the final answer is: The currency used in England, where Shakespeare was born and lived, was the English pound sterling (GBP). \n\nNote: There's a need to clarify if Shakespeare was indeed from England or any other country.",
+                "The currency used in England, where Shakespeare was born and lived, was the English pound sterling (GBP)."
+            ],
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.23529411764705882,
+                "acc": 1.0,
+                "precision": 0.13333333333333333,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "q009",
+        "question": "What mountain range is Mount Everest part of?",
+        "golden_answers": [
+            "Himalayas",
+            "the Himalayas",
+            "Himalayan range"
+        ],
+        "output": {
+            "pred": "Mount Everest is part of the Himalaya mountain range.",
+            "reasoning_steps": [
+                "Follow up: Which mountain is known as the highest peak globally?\nSearch: No.\nIntermediate answer: The highest peak globally is Mount Everest.\n",
+                "So the final answer is: Mount Everest is part of the Himalaya mountain range.",
+                "Mount Everest is part of the Himalaya mountain range."
+            ],
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.2,
+                "acc": 0.0,
+                "precision": 0.125,
+                "recall": 0.5
+            }
+        }
+    },
+    {
+        "id": "q010",
+        "question": "Who wrote the novel that the movie The Godfather is based on?",
+        "golden_answers": [
+            "Mario Puzo"
+        ],
+        "output": {
+            "pred": "Mario Puzo wrote the novel that The Godfather is based on, and it was released as a film in 1972.",
+            "reasoning_steps": [
+                "Follow up: What year was The Godfather released as a film?\nSearch: No.\nIntermediate answer: The Godfather, based on Mario Puzo's novel The Godfather, was released in 1972. \n",
+                "So the final answer is: Mario Puzo wrote the novel that The Godfather is based on, and it was released in 1972 as a film.",
+                "Mario Puzo wrote the novel that The Godfather is based on, and it was released as a film in 1972."
+            ],
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.21052631578947367,
+                "acc": 1.0,
+                "precision": 0.11764705882352941,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "q011",
+        "question": "What river flows through the city where the Louvre museum is located?",
+        "golden_answers": [
+            "Seine",
+            "the Seine",
+            "Seine River"
+        ],
+        "output": {
+            "pred": "The river that flows through the city where the Louvre museum is located is the Seine River.",
+            "reasoning_steps": [
+                "Follow up: Where is the Louvre Museum situated?\nSearch: No.\nIntermediate answer: The Louvre Museum is in Paris, France.\n",
+                "So the final answer is: The river that flows through the city where the Louvre museum is located is the Seine River.",
+                "The river that flows through the city where the Louvre museum is located is the Seine River."
+            ],
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.2666666666666667,
+                "acc": 1.0,
+                "precision": 0.15384615384615385,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "q012",
+        "question": "What is the atomic number of the element named after Marie Curie's home country?",
+        "golden_answers": [
+            "84"
+        ],
+        "output": {
+            "pred": "The atomic number of the element named after Marie Curie's home country (Poland) is 84, as it is named \"polonium\".",
+            "reasoning_steps": [
+                "Follow up: In which countries was Marie Curie born and spent her early life?\nSearch: No.\nIntermediate answer: Marie Curie was born in Warsaw, Poland. \n",
+                "So the final answer is: The atomic number of the element named after Marie Curie's home country (Poland) is 84, as it is named \"polonium\".",
+                "The atomic number of the element named after Marie Curie's home country (Poland) is 84, as it is named \"polonium\"."
+            ],
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.10526315789473684,
+                "acc": 1.0,
+                "precision": 0.05555555555555555,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "q013",
+        "question": "What sport is associated with Wimbledon, and in what country is it held?",
+        "golden_answers": [
+            "Tennis",
+            "England",
+            "United Kingdom"
+        ],
+        "output": {
+            "pred": "Wimbledon is associated with tennis, a sport held in the United Kingdom.",
+            "reasoning_steps": [
+                "Follow up: In which country is Wimbledon held?\nSearch: No.\nIntermediate answer: Wimbledon is held in the United Kingdom.\n",
+                "So the final answer is: Wimbledon is associated with tennis, a sport played in the United Kingdom.",
+                "Wimbledon is associated with tennis, a sport held in the United Kingdom."
+            ],
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.33333333333333337,
+                "acc": 1.0,
+                "precision": 0.2,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "q014",
+        "question": "What is the official language of Brazil?",
+        "golden_answers": [
+            "Portuguese"
+        ],
+        "output": {
+            "pred": "The official language of Brazil is Portuguese.",
+            "reasoning_steps": [
+                "Follow up: Which countries use Portuguese as their official language?\nSearch: No.\nIntermediate answer: The official language in Brazil is Portuguese.Follow up:What other countries use Portuguese as their official language?\nSearch: No.\nIntermediate answer: Portugal, Brazil, Angola, Mozambique, Guinea-Bissau, Cape Verde, and East Timor. \n\n",
+                "So the final answer is: Portuguese is the official language of Brazil along with Portugal, Angola, Mozambique, Guinea-Bissau, Cape Verde, and East Timor.",
+                "The official language of Brazil is Portuguese."
+            ],
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.2857142857142857,
+                "acc": 1.0,
+                "precision": 0.16666666666666666,
+                "recall": 1.0
+            }
+        }
+    },
+    {
+        "id": "q015",
+        "question": "Who was the first person to walk on the moon and what country was the mission from?",
+        "golden_answers": [
+            "Neil Armstrong",
+            "United States",
+            "USA"
+        ],
+        "output": {
+            "pred": "Neil Armstrong, a citizen of the United States, was the first person to walk on the moon in July 1969. The Apollo 11 mission originated from the United States.",
+            "reasoning_steps": [
+                "Follow up: When did the first person walk on the moon?\nSearch: No.\nIntermediate answer: The first person to walk on the moon was Neil Armstrong, who walked on it during the Apollo 11 mission. \n",
+                "So the final answer is: Neil Armstrong, a citizen of the United States, was the first person to walk on the moon in July 1969.\n\nFollow up: What country did the Apollo 11 mission originate from?\nSearch: No.\nIntermediate answer: The Apollo 11 mission originated from the United States. \nSo the final answer is: Neil Armstrong, a citizen of the United States, was the first person to walk on the moon in July 1969 and the Apollo 11 mission came from the United States.",
+                "Neil Armstrong, a citizen of the United States, was the first person to walk on the moon in July 1969. The Apollo 11 mission originated from the United States."
+            ],
+            "metric_score": {
+                "em": 0.0,
+                "f1": 0.16,
+                "acc": 1.0,
+                "precision": 0.08695652173913043,
+                "recall": 1.0
+            }
+        }
+    }
+]

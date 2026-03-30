@@ -1,0 +1,73 @@
+# ReARTeR Small-Scale Analysis Config
+# Uses Ollama (OpenAI-compatible) + BM25 retrieval
+
+model2path:
+  e5: ""
+  contriever: ""
+
+model2pooling:
+  e5: "mean"
+
+method2index:
+  bm25: /home/rtx3060/ReARTeR/analysis/corpus/bm25_index
+
+data_dir: "/home/rtx3060/ReARTeR/analysis/data/"
+save_dir: "/home/rtx3060/ReARTeR/analysis/results/"
+
+gpu_id: "0"
+dataset_name: "mini_qa"
+split: ["dev"]
+
+test_sample_num: 15
+random_sample: False
+seed: 2024
+save_intermediate_data: True
+save_note: "rearter_analysis"
+
+# BM25 retrieval - no GPU needed for retrieval
+retrieval_method: "bm25"
+retrieval_model_path: ""
+index_path: "/home/rtx3060/ReARTeR/analysis/corpus/bm25_index"
+faiss_gpu: False
+corpus_path: "/home/rtx3060/ReARTeR/analysis/corpus/mini_corpus.jsonl"
+retrieval_topk: 3
+retrieval_batch_size: 32
+retrieval_use_fp16: False
+retrieval_query_max_length: 128
+save_retrieval_cache: False
+use_retrieval_cache: False
+retrieval_cache_path: ~
+retrieval_pooling_method: ~
+bm25_backend: bm25s
+use_sentence_transformer: False
+
+use_reranker: False
+rerank_model_name: ~
+rerank_model_path: ~
+rerank_topk: 3
+
+# Generator: Ollama via OpenAI-compatible API
+framework: openai
+generator_model: "qwen2.5:3b"
+openai_setting:
+  api_key: "ollama"
+  base_url: "http://localhost:11434/v1"
+  timeout: 120
+
+generator_model_path: ~
+generator_max_input_len: 4096
+generator_batch_size: 1
+generation_params:
+  max_tokens: 512
+  temperature: 0.7
+use_fid: False
+gpu_memory_utilization: 0.85
+
+refiner_name: ~
+refiner_model_path: ~
+refiner_topk: 5
+
+metrics: ['em', 'f1', 'acc', 'precision', 'recall']
+metric_setting:
+  retrieval_recall_topk: 3
+save_metric_score: True

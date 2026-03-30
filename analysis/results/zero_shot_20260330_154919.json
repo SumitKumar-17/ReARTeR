@@ -1,0 +1,147 @@
+{
+  "method": "zero_shot",
+  "elapsed_seconds": 4.23,
+  "metrics": {
+    "em": 0.26666666666666666,
+    "f1": 0.38973544973544966,
+    "acc": 0.7333333333333333,
+    "precision": 0.3387651821862348,
+    "recall": 0.7333333333333333
+  },
+  "items": [
+    {
+      "id": "q001",
+      "question": "Who was the president of the United States when the Berlin Wall fell?",
+      "golden_answers": [
+        "George H. W. Bush",
+        "George Bush"
+      ],
+      "pred": "The Berlin Wall ended before the fall of Berlin during World War II, so there wasn't a U.S. President at that time. The event refers to negotiations held in several European cities between 1940 and 1945, particularly focusing on Germany's surrender without preconditions ending the war. It didn't involve an active U.S. president since the United States was not the main power negotiating or leading during this period of World War II."
+    },
+    {
+      "id": "q002",
+      "question": "What country is the city where Albert Einstein was born located in?",
+      "golden_answers": [
+        "Germany"
+      ],
+      "pred": "Germany"
+    },
+    {
+      "id": "q003",
+      "question": "What ocean does the longest river in Africa empty into?",
+      "golden_answers": [
+        "Atlantic Ocean",
+        "the Atlantic Ocean"
+      ],
+      "pred": "Atlantic Ocean"
+    },
+    {
+      "id": "q004",
+      "question": "What is the capital of the country where the Eiffel Tower is located?",
+      "golden_answers": [
+        "Paris"
+      ],
+      "pred": "Paris"
+    },
+    {
+      "id": "q005",
+      "question": "Who invented the telephone and what country was he born in?",
+      "golden_answers": [
+        "Alexander Graham Bell",
+        "Scotland"
+      ],
+      "pred": "The telephone was invented by Alexander Graham Bell, who was born in Scotland."
+    },
+    {
+      "id": "q006",
+      "question": "In what year did the company that makes the iPhone release their first personal computer?",
+      "golden_answers": [
+        "1976",
+        "1977"
+      ],
+      "pred": "2008, when Apple released the MacBook Air, marking their entry into personal computers market."
+    },
+    {
+      "id": "q007",
+      "question": "What language is spoken in the country that won the 2018 FIFA World Cup?",
+      "golden_answers": [
+        "French"
+      ],
+      "pred": "Spanish\n\nThe 2018 FIFA World Cup was held in Russia, which is primarily a Russian-speaking country but also has significant populations of native Russian speakers and many bilingual individuals who speak Russian alongside other languages. However, if you're asking about the overall spoken language among most citizens for official communication purposes, it's Russian."
+    },
+    {
+      "id": "q008",
+      "question": "What is the currency of the country where Shakespeare was born?",
+      "golden_answers": [
+        "Pound sterling",
+        "British pound",
+        "pound"
+      ],
+      "pred": "The currency of the country where Shakespeare was born (England) is the pound sterling (\u00a3)."
+    },
+    {
+      "id": "q009",
+      "question": "What mountain range is Mount Everest part of?",
+      "golden_answers": [
+        "Himalayas",
+        "the Himalayas",
+        "Himalayan range"
+      ],
+      "pred": "The Himalayas."
+    },
+    {
+      "id": "q010",
+      "question": "Who wrote the novel that the movie The Godfather is based on?",
+      "golden_answers": [
+        "Mario Puzo"
+      ],
+      "pred": "Irving Sherr wrote the novel that the movie \"The Godfather\" is based on. However, it's more accurate to say it was originally based on Nicholas Pileggi's book \"Wiseguy,\" which he cowrote with Mario Puzo, the author of the novel form of The Godfather series."
+    },
+    {
+      "id": "q011",
+      "question": "What river flows through the city where the Louvre museum is located?",
+      "golden_answers": [
+        "Seine",
+        "the Seine",
+        "Seine River"
+      ],
+      "pred": "The river that flows through the city where the Louvre museum is located is the Seine River."
+    },
+    {
+      "id": "q012",
+      "question": "What is the atomic number of the element named after Marie Curie's home country?",
+      "golden_answers": [
+        "84"
+      ],
+      "pred": "97 (Ruthenium)"
+    },
+    {
+      "id": "q013",
+      "question": "What sport is associated with Wimbledon, and in what country is it held?",
+      "golden_answers": [
+        "Tennis",
+        "England",
+        "United Kingdom"
+      ],
+      "pred": "Wimbledon is associated with tennis, and it is held in the United Kingdom."
+    },
+    {
+      "id": "q014",
+      "question": "What is the official language of Brazil?",
+      "golden_answers": [
+        "Portuguese"
+      ],
+      "pred": "The official language of Brazil is Portuguese."
+    },
+    {
+      "id": "q015",
+      "question": "Who was the first person to walk on the moon and what country was the mission from?",
+      "golden_answers": [
+        "Neil Armstrong",
+        "United States",
+        "USA"
+      ],
+      "pred": "The first person to walk on the Moon was Neil Armstrong, and the mission was from the United States (NASA)."
+    }
+  ]
+}
