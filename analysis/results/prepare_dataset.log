@@ -1,8 +1,0 @@
-=== Downloading TriviaQA from HuggingFace ===
-Loaded 17944 TriviaQA validation questions
-Columns: ['question', 'question_id', 'question_source', 'entity_pages', 'search_results', 'answer']
-Sample: Who was the man behind The Chipmunks? -> David Seville
-
-Converted 17944 questions to FlashRAG format
-
-=== Building corpus from TriviaQA contexts ===

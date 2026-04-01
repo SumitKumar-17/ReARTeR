@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+analysis/results/
+.env
+Miniconda3-latest-MacOSX-arm64.sh
+*.sh

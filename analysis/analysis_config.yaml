@@ -9,10 +9,13 @@ model2pooling:
   e5: "mean"
 
 method2index:
-  bm25: /home/rtx3060/ReARTeR/analysis/corpus/bm25_index
+  bm25: ./corpus/bm25_index
 
-data_dir: "/home/rtx3060/ReARTeR/analysis/data/"
-save_dir: "/home/rtx3060/ReARTeR/analysis/results/"
+data_dir: "./data/"
+save_dir: "./results/"
+
+alpha: 1.0
+beta: 2.0
 
 gpu_id: "0"
 dataset_name: "mini_qa"
@@ -27,9 +30,9 @@ save_note: "rearter_analysis"
 # BM25 retrieval - no GPU needed for retrieval
 retrieval_method: "bm25"
 retrieval_model_path: ""
-index_path: "/home/rtx3060/ReARTeR/analysis/corpus/bm25_index"
+index_path: "./corpus/bm25_index"
 faiss_gpu: False
-corpus_path: "/home/rtx3060/ReARTeR/analysis/corpus/mini_corpus.jsonl"
+corpus_path: "./corpus/mini_corpus.jsonl"
 retrieval_topk: 3
 retrieval_batch_size: 32
 retrieval_use_fp16: False

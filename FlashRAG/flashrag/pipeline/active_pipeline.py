@@ -12,6 +12,7 @@ from flashrag.evaluator.metrics import F1_Score
 import torch.nn.functional as F
 import time
 import torch
+
 class IterativePipeline(BasicPipeline):
     def __init__(self, config, prompt_template=None, iter_num=3):
         super().__init__(config, prompt_template)
@@ -1021,15 +1022,21 @@ class ReasoningPipeline(BasicPipeline):
             format_reference += f"Doc{idx+1}: {text}\n"
 
         return format_reference
-    def run_item_mcts(self, question, partial_answer, beta=0.0):
+    #def run_item_mcts(self, question, partial_answer, beta=0.0):
+    def run_item_mcts(self, question, partial_answer, beta=0.0, max_steps=None):
         question = question + '\n' + partial_answer
         all_retrieval_result = []
         iter_count = 0
+        #########
+        if max_steps is None:
+            max_steps = self.max_iter
+        #########
         accumulated_output = ""
         bad_gen = False
         gen_num = 0
 
-        while iter_count < self.max_iter:
+        ####All self.max_iter replaced by max_steps#####
+        while iter_count < max_steps:
             # Build the prompt with the question and any accumulated output            
             system_prompt = self.P_INS
             
@@ -1098,13 +1105,13 @@ class ReasoningPipeline(BasicPipeline):
                 break
             else:
                 accumulated_output += gen_out
-                if iter_count == self.max_iter or gen_num==2*self.max_iter:
+                if iter_count == max_steps or gen_num==2*max_steps:
                     accumulated_output += "So the final answer is:"
                 else:
                     accumulated_output += "Follow up:"
             
             # Check if iteration count exceeds the max iteration limit
-            if iter_count > self.max_iter or gen_num>2*self.max_iter:
+            if iter_count > max_steps or gen_num>2*max_steps:
                 follow_up_questions = re.findall(self.INTER_ANS, accumulated_output)
                 final_output = ""
                 for inter_ans in follow_up_questions:
@@ -1580,6 +1587,7 @@ class ReasoningPipeline(BasicPipeline):
         accumulated_output = []
         data_dict_list = []
         all_reasoning_steps = []
+
         while True:
             if len(accumulated_output)>3:
                 step = 1
@@ -1628,6 +1636,7 @@ class ReasoningPipeline(BasicPipeline):
                 break
             iter_count += 1
             if iter_count >= self.max_iter or len(accumulated_output) >= self.max_iter or "So the final answer is:" in new_reasoning_step:
+            #if iter_count >= adaptive_H or len(accumulated_output) >= adaptive_H  or "So the final answer is:" in new_reasoning_step:
                 break
         if "So the final answer is:" in accumulated_output[-1]:
             pred = accumulated_output[-1].split("So the final answer is:")[-1].strip()

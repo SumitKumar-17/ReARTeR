@@ -29,6 +29,20 @@ CONFIG_PATH = os.path.expanduser("~/ReARTeR/analysis/analysis_config.yaml")
 RESULTS_DIR = os.path.expanduser("~/ReARTeR/analysis/results")
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
+# -------- Adaptive Horizon (H value) Helper methods --------
+
+def estimate_complexity(question):
+    q = question.lower()
+    length_score = len(q.split()) / 20
+    multi_hop_score = int(any(w in q for w in ["who", "when", "which", "that", "whose"]))
+    return length_score + multi_hop_score
+
+
+def compute_horizon(complexity, alpha, beta, H_max=5):
+    return max(1, min(int(alpha * complexity + beta), H_max))
+
+# -------------------------------------------------------------
+
 def save_results(results_dict, method_name):
     """Save results to JSON file"""
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -142,7 +156,25 @@ def run_rearter_reasoning(config, test_data):
         print(f"\n  [{i+1}/{len(test_data)}] Q: {item.question[:70]}...")
         try:
             item_start = time.time()
-            reasoning_steps, bad_gen = pipeline.run_item_mcts(item.question, "")
+            
+            # -------- Adaptive H --------
+            question = item.question
+
+            complexity = estimate_complexity(question)
+            alpha = config["alpha"] if "alpha" in config else 1.0
+            beta_param = config["beta"] if "beta" in config else 1.0
+
+            H = compute_horizon(complexity, alpha, beta_param)
+
+            print(f"[Adaptive H] Complexity={complexity:.2f}, H={H}")
+
+            reasoning_steps, bad_gen = pipeline.run_item_mcts(
+                item.question,
+                "",
+                max_steps=H
+            )
+            
+            #reasoning_steps, bad_gen = pipeline.run_item_mcts(item.question, "")
             item_elapsed = time.time() - item_start
             
             # Final prediction is the last step
@@ -240,7 +272,54 @@ def main():
     all_split3 = get_dataset(config3)
     r3 = run_rearter_reasoning(config3, all_split3["dev"])
     results.append(r3)
+
+    '''
+    # ==============================
+    # Adaptive H tuning (Grid Search) -> To compare different combinations of alpha and beta for H calculation
+    # ==============================
+
+    alphas = [1.0, 1.5]
+    betas = [2.0, 3.0]
+
+    best_f1 = -1
+    best_alpha, best_beta = None, None
+    best_result = None
+
+    for a in alphas:
+        for b in betas:
+            print(f"\n#### Testing alpha={a}, beta={b} ####")
+            
+            config_temp = Config(CONFIG_PATH, {})
+            config_temp["alpha"] = a
+            config_temp["beta"] = b
+            
+            all_split_temp = get_dataset(config_temp)
+            result = run_rearter_reasoning(config_temp, all_split_temp["dev"])
+            
+            f1 = result["metrics"]["f1"]
+            
+            if f1 > best_f1:
+                best_f1 = f1
+                best_alpha = a
+                best_beta = b
+                best_result = result
+
+    print(f"\n Best alpha={best_alpha}, beta={best_beta}, F1={best_f1}")
+
+    # ==============================
+    # Final run with best params
+    # ==============================
+
+    config3 = Config(CONFIG_PATH, {})
+    config3["alpha"] = best_alpha
+    config3["beta"] = best_beta
+
+    all_split3 = get_dataset(config3)
+    r3 = run_rearter_reasoning(config3, all_split3["dev"])
+
+    results.append(r3)
     
+    '''
     print_comparison(results)
     print(f"\nFinished: {datetime.datetime.now()}")
 
